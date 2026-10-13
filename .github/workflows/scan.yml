@@ -24,6 +24,11 @@ jobs:
         with:
           node-version: 20
 
+      - name: 브라우저 설치
+        run: |
+          npm install --no-save --no-package-lock playwright@1.48.2
+          npx playwright install --with-deps chromium
+
       - name: 요금 조회
         run: node scan.mjs
         env:
