@@ -1,0 +1,33 @@
+{
+  "days": 120,
+  "gapMs": 1500,
+  "dropPct": 8,
+  "planRe": "prive|virtuoso|exclusive",
+  "excludeRe": "vita",
+  "hotels": [
+    {
+      "key": "park-hyatt-busan",
+      "name": "파크 하얏트 부산",
+      "id": "5c1e76d93457456c0777a5ee",
+      "targetKrw": null
+    },
+    {
+      "key": "grand-hyatt-seoul",
+      "name": "그랜드 하얏트 서울",
+      "id": "5b59645a8885d57e94df4ec2",
+      "targetKrw": null
+    },
+    {
+      "key": "jw-marriott-seoul",
+      "name": "JW 메리어트 서울(강남)",
+      "id": "5b5963f48885d57e94df4a69",
+      "targetKrw": null
+    },
+    {
+      "key": "signiel-busan",
+      "name": "시그니엘 부산",
+      "id": "619762ed39fffb0befbb2415",
+      "targetKrw": null
+    }
+  ]
+}
