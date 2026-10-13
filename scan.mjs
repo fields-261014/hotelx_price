@@ -25,11 +25,37 @@ const HEADERS = {
   'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36',
 };
 
+// 실제 브라우저(Chromium)로 HoteLux 페이지를 먼저 열어 접속 세션을 만든 뒤, 그 페이지 안에서 조회한다.
+let browser = null, page = null;
+const SESSION_URL = 'https://hotel.hotelux.com/#/hotel/detail?locationType=city&showLabel=Busan&locationRef=59ad4641e32d2a86e654b2be&checkIn=' + kstToday() + '&checkOut=' + addDays(kstToday(), 1) + '&numberOfAdults=2&numberOfChildren=0&numberOfRooms=1&hotelId=5c1e76d93457456c0777a5ee';
+
+async function openSession() {
+  if (!browser) {
+    const { chromium } = await import('playwright');
+    browser = await chromium.launch({ headless: true });
+    const ctx = await browser.newContext({ locale: 'ko-KR', timezoneId: 'Asia/Seoul', userAgent: HEADERS['user-agent'], viewport: { width: 1280, height: 900 } });
+    page = await ctx.newPage();
+  }
+  await page.goto(SESSION_URL, { waitUntil: 'networkidle', timeout: 90000 }).catch(e => console.log('goto 경고:', e.message));
+  await sleep(8000);
+  console.log('세션 준비 완료:', await page.title().catch(() => ''));
+}
+
 async function post(url, body) {
   if (MOCK) return mockResponse(body);
-  const r = await fetch(url, { method: 'POST', headers: HEADERS, body: JSON.stringify(body) });
-  const text = await r.text();
-  try { return JSON.parse(text); } catch { return { err: { messageKey: `http${r.status}` } }; }
+  if (!page) await openSession();
+  const path = url.replace('https://hotel.hotelux.com', '');
+  try {
+    return await page.evaluate(async ({ path, body }) => {
+      const r = await fetch(path, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body), credentials: 'include' });
+      const t = await r.text();
+      try { return JSON.parse(t); } catch { return { err: { messageKey: 'http' + r.status } }; }
+    }, { path, body });
+  } catch (e) {
+    console.log('페이지 오류, 다시 엽니다:', e.message);
+    await openSession();
+    return { err: { messageKey: 'pageError' } };
+  }
 }
 
 // 한 날짜·한 호텔 조회 → 지정 요금제 기준 하위 2개 객실 [[객실, 요금제, 원화], ...]
@@ -67,14 +93,21 @@ async function fetchDate(hotelId, ci, state) {
 
 async function scan() {
   const today = kstToday();
-  const st = { gap: CFG.gapMs, blocks: 0, errs: 0, n: 0, lastErr: null };
+  const st = { gap: CFG.gapMs, blocks: 0, errs: 0, n: 0, lastErr: null, aborted: false };
   const res = {};
+  let streak = 0, reopened = false;
   for (const h of CFG.hotels) {
     res[h.key] = {};
     for (let i = 0; i < CFG.days; i++) {
       const ci = addDays(today, i);
       res[h.key][ci] = await fetchDate(h.id, ci, st);
       st.n++;
+      if (res[h.key][ci] === null) {
+        streak++;
+        console.log(`조회 실패 ${h.key} ${ci}: ${st.lastErr}`);
+        if (streak === 5 && !reopened && !MOCK) { reopened = true; console.log('연속 실패 → 페이지를 다시 열어 세션 재시도'); await openSession(); }
+        if (streak >= 10) { st.aborted = true; st.errs = CFG.hotels.length * CFG.days; return { today, res, st }; }
+      } else streak = 0;
       if (st.n % 40 === 0) console.log(`progress ${st.n}/${CFG.hotels.length * CFG.days} blocks=${st.blocks} errs=${st.errs}`);
       await sleep(MOCK ? 0 : st.gap);
     }
@@ -166,9 +199,12 @@ const total = CFG.hotels.length * CFG.days;
 console.log(`done n=${st.n} blocks=${st.blocks} errs=${st.errs}`);
 
 if (st.errs > total * 0.5) {
-  await telegram(`[HoteLux 알림] 이번 조회가 대부분 실패했어요 (${st.errs}/${total}건, 마지막 오류: ${st.lastErr}). HoteLux가 이 서버의 접속을 막았을 수 있어요. 기존 기록은 그대로 두었어요.`);
+  const why = st.aborted ? '처음부터 연속 실패해서 조회를 일찍 멈췄어요' : `${st.errs}/${total}건 실패`;
+  await telegram(`[HoteLux 알림] 이번 조회가 실패했어요 (${why}, 마지막 오류: ${st.lastErr}). 기존 기록은 그대로 두었어요.`);
+  if (browser) await browser.close();
   process.exit(0); // 실패한 조회로 기록을 덮어쓰지 않음
 }
+if (browser) await browser.close();
 
 const { state, alerts } = compare(res, today);
 fs.mkdirSync(new URL('./data/', import.meta.url), { recursive: true });
