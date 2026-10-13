@@ -29,32 +29,61 @@ const HEADERS = {
 let browser = null, page = null;
 const SESSION_URL = 'https://hotel.hotelux.com/#/hotel/detail?locationType=city&showLabel=Busan&locationRef=59ad4641e32d2a86e654b2be&checkIn=' + kstToday() + '&checkOut=' + addDays(kstToday(), 1) + '&numberOfAdults=2&numberOfChildren=0&numberOfRooms=1&hotelId=5c1e76d93457456c0777a5ee';
 
+// 페이지가 스스로 보낸 첫 요금 조회 요청(헤더·본문)을 본떠서, 호텔·날짜만 바꿔 보낸다.
+let ctx = null, template = null;
+const SKIP_HEADERS = new Set(['content-length', 'host', 'cookie', 'connection', 'accept-encoding']);
+
 async function openSession() {
   if (!browser) {
     const { chromium } = await import('playwright');
     browser = await chromium.launch({ headless: true });
-    const ctx = await browser.newContext({ locale: 'ko-KR', timezoneId: 'Asia/Seoul', userAgent: HEADERS['user-agent'], viewport: { width: 1280, height: 900 } });
+    ctx = await browser.newContext({ locale: 'ko-KR', timezoneId: 'Asia/Seoul', userAgent: HEADERS['user-agent'], viewport: { width: 1280, height: 900 } });
     page = await ctx.newPage();
+    page.on('request', req => {
+      if (template || req.method() !== 'POST' || !req.url().includes('/booking/hotel/rates')) return;
+      let body = null; try { body = JSON.parse(req.postData() || 'null'); } catch {}
+      if (!body) return;
+      const headers = {};
+      for (const [k, v] of Object.entries(req.headers())) if (!SKIP_HEADERS.has(k.toLowerCase()) && !k.startsWith(':')) headers[k] = v;
+      template = { headers, body };
+      console.log('요청 양식 확보. 헤더:', Object.keys(headers).join(', '), '| 본문 항목:', Object.keys(body).join(', '),
+        '| stay 항목:', Object.keys(body.stay || {}).join(', '));
+    });
   }
+  template = null;
   await page.goto(SESSION_URL, { waitUntil: 'networkidle', timeout: 90000 }).catch(e => console.log('goto 경고:', e.message));
-  await sleep(8000);
-  console.log('세션 준비 완료:', await page.title().catch(() => ''));
+  for (let i = 0; i < 20 && !template; i++) await sleep(1000);
+  await sleep(3000);
+  console.log('세션 준비 완료:', await page.title().catch(() => ''), template ? '' : '(요청 양식 못 찾음)');
+}
+
+function fromTemplate(body) {
+  if (!template) return body;
+  const t = JSON.parse(JSON.stringify(template.body));
+  t.hotel = { ...(t.hotel || {}), _id: body.hotel._id };
+  t.stay = { ...(t.stay || {}), ...body.stay, date: { ...((t.stay || {}).date || {}), ...body.stay.date } };
+  return t;
 }
 
 async function post(url, body) {
   if (MOCK) return mockResponse(body);
   if (!page) await openSession();
-  const path = url.replace('https://hotel.hotelux.com', '');
+  const payload = fromTemplate(body);
   try {
-    return await page.evaluate(async ({ path, body }) => {
-      const r = await fetch(path, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body), credentials: 'include' });
+    if (template) {
+      const r = await ctx.request.post(url, { headers: { ...template.headers, 'content-type': 'application/json' }, data: JSON.stringify(payload), timeout: 60000 });
+      const t = await r.text();
+      try { return JSON.parse(t); } catch { return { err: { messageKey: 'http' + r.status() } }; }
+    }
+    const path = url.replace('https://hotel.hotelux.com', '');
+    return await page.evaluate(async ({ path, payload }) => {
+      const r = await fetch(path, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(payload), credentials: 'include' });
       const t = await r.text();
       try { return JSON.parse(t); } catch { return { err: { messageKey: 'http' + r.status } }; }
-    }, { path, body });
+    }, { path, payload });
   } catch (e) {
-    console.log('페이지 오류, 다시 엽니다:', e.message);
-    await openSession();
-    return { err: { messageKey: 'pageError' } };
+    console.log('요청 오류:', e.message);
+    return { err: { messageKey: 'requestError' } };
   }
 }
 
