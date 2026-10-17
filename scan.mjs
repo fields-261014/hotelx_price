@@ -120,34 +120,34 @@ async function fetchDate(hotelId, ci, state) {
   return null;
 }
 
-async function scan() {
+// 호텔 1곳 조회. 처음부터 연속 실패하면 일찍 멈춘다.
+async function scanHotel(h) {
   const today = kstToday();
   const st = { gap: CFG.gapMs, blocks: 0, errs: 0, n: 0, lastErr: null, aborted: false };
   const res = {};
-  let streak = 0, reopened = false;
-  for (const h of CFG.hotels) {
-    res[h.key] = {};
-    for (let i = 0; i < CFG.days; i++) {
-      const ci = addDays(today, i);
-      res[h.key][ci] = await fetchDate(h.id, ci, st);
-      st.n++;
-      if (res[h.key][ci] === null) {
-        streak++;
-        console.log(`조회 실패 ${h.key} ${ci}: ${st.lastErr}`);
-        if (streak === 5 && !reopened && !MOCK) { reopened = true; console.log('연속 실패 → 페이지를 다시 열어 세션 재시도'); await openSession(); }
-        if (streak >= 10) { st.aborted = true; st.errs = CFG.hotels.length * CFG.days; return { today, res, st }; }
-      } else streak = 0;
-      if (st.n % 40 === 0) console.log(`progress ${st.n}/${CFG.hotels.length * CFG.days} blocks=${st.blocks} errs=${st.errs}`);
-      await sleep(MOCK ? 0 : st.gap);
-    }
+  let streak = 0, reopened = false, okCount = 0;
+  for (let i = 0; i < CFG.days; i++) {
+    const ci = addDays(today, i);
+    res[ci] = await fetchDate(h.id, ci, st);
+    st.n++;
+    if (res[ci] === null) {
+      streak++;
+      console.log(`조회 실패 ${h.key} ${ci}: ${st.lastErr}`);
+      if (streak === 5 && !reopened && !MOCK) { reopened = true; console.log('연속 실패 → 페이지를 다시 열어 세션 재시도'); await openSession(); }
+      if (streak >= 10 && okCount === 0) { st.aborted = true; break; }
+    } else { streak = 0; okCount++; }
+    if (st.n % 30 === 0) console.log(`${h.key} progress ${st.n}/${CFG.days} blocks=${st.blocks} errs=${st.errs}`);
+    await sleep(MOCK ? 0 : st.gap);
   }
-  return { today, res, st };
+  const ok = !st.aborted && st.errs <= CFG.days * 0.5;
+  return { key: h.key, today, scanAt: new Date().toISOString(), ok, st, res };
 }
 
 function compare(res, today) {
   const state = readJson(STATE_FILE, { lows: {}, last: {} });
   const alerts = [];
   for (const h of CFG.hotels) {
+    if (!res[h.key]) continue;
     const lows = (state.lows[h.key] ||= {});
     const last = (state.last[h.key] ||= {});
     const tgt = typeof h.targetKrw === 'number' ? h.targetKrw : null;
@@ -170,13 +170,14 @@ function compare(res, today) {
   return { state, alerts };
 }
 
-function buildReport(res, state, scanAt) {
+function buildReport(res, state, scanAt, times = {}) {
   const out = [`# HoteLux 요금 현황`, '', `마지막 조회: ${new Date(scanAt).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' })} (한국 시간)`, '',
     `기준: 1박·성인 2명, 세금 포함 원화. 요금제 ${CFG.planRe.replace(/\|/g, ' / ')} (제외: ${CFG.excludeRe || '없음'}). 알림 조건: 날짜·객실별 역대 최저 대비 ${CFG.dropPct}% 이상 하락, 또는 목표가 이하 첫 도달.`, ''];
   for (const h of CFG.hotels) {
     const rows = res[h.key] || {};
     const dates = Object.keys(rows).sort();
     out.push(`## ${h.name}`, '');
+    if (times[h.key] && times[h.key] !== scanAt) out.push(`(이번 조회 실패, ${new Date(times[h.key]).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' })} 조회 결과)`, '');
     if (typeof h.targetKrw === 'number') out.push(`목표가: ${won(h.targetKrw)}원`, '');
     // 월별 최저
     const monthMin = {};
@@ -221,41 +222,68 @@ function alertText(alerts, repoUrl) {
 }
 
 const repoUrl = process.env.GITHUB_SERVER_URL && process.env.GITHUB_REPOSITORY ? `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}` : '';
-const firstRun = !fs.existsSync(STATE_FILE);
-const scanAt = new Date().toISOString();
-const { today, res, st } = await scan();
-const total = CFG.hotels.length * CFG.days;
-console.log(`done n=${st.n} blocks=${st.blocks} errs=${st.errs}`);
+const OUT_DIR = new URL('./out/', import.meta.url);
+const ALERTS_FILE = new URL('./data/alerts.json', import.meta.url);
+const [mode, arg] = process.argv.slice(2);
 
-if (st.errs > total * 0.5) {
-  const why = st.aborted ? '처음부터 연속 실패해서 조회를 일찍 멈췄어요' : `${st.errs}/${total}건 실패`;
-  await telegram(`[HoteLux 알림] 이번 조회가 실패했어요 (${why}, 마지막 오류: ${st.lastErr}). 기존 기록은 그대로 두었어요.`);
-  if (browser) await browser.close();
-  process.exit(0); // 실패한 조회로 기록을 덮어쓰지 않음
-}
-if (browser) await browser.close();
-
-const { state, alerts } = compare(res, today);
-fs.mkdirSync(new URL('./data/', import.meta.url), { recursive: true });
-fs.writeFileSync(STATE_FILE, JSON.stringify(state));
-fs.writeFileSync(LATEST_FILE, JSON.stringify({ scanAt, today, res }));
-fs.writeFileSync(REPORT_FILE, buildReport(res, state, scanAt));
-
-if (firstRun) {
-  const lines = ['[HoteLux 알림] 첫 조회 완료! 앞으로 하락이 생기면 알려드릴게요.', '4개월 내 최저가:'];
-  for (const h of CFG.hotels) {
-    let best = null;
-    for (const [ci, rows] of Object.entries(res[h.key] || {})) { const r = rows && rows[0]; if (r && (!best || r[2] < best[1])) best = [ci, r[2]]; }
-    lines.push(`- ${h.name}: ${best ? `${fmtDate(best[0])} ${won(best[1])}원` : '해당 요금 없음'}`);
+// 사용법: node scan.mjs scan <호텔키>  → out/<호텔키>.json
+//         node scan.mjs merge         → out/*.json 을 합쳐 비교·기록·알림
+//         node scan.mjs               → (로컬 테스트) 전체 조회 후 merge
+async function runScan(keys) {
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+  for (const key of keys) {
+    const h = CFG.hotels.find(x => x.key === key);
+    if (!h) { console.log('config.json 에 없는 호텔:', key); continue; }
+    const r = await scanHotel(h);
+    console.log(`${key} 완료: ok=${r.ok} n=${r.st.n} blocks=${r.st.blocks} errs=${r.st.errs} 마지막오류=${r.st.lastErr}`);
+    fs.writeFileSync(new URL(`./${key}.json`, OUT_DIR), JSON.stringify(r));
   }
-  if (repoUrl) lines.push(`전체 현황: ${repoUrl}/blob/HEAD/report.md`);
-  await telegram(lines.join('\n'));
-} else if (alerts.length) {
-  await telegram(alertText(alerts, repoUrl));
-} else {
-  console.log('알림 없음');
+  if (browser) await browser.close();
 }
-if (st.blocks >= 10) console.log(`주의: 차단 ${st.blocks}회`);
+
+async function runMerge() {
+  const today = kstToday();
+  const scanAt = new Date().toISOString();
+  const prevLatest = readJson(LATEST_FILE, { res: {}, times: {} });
+  const firstRun = !fs.existsSync(STATE_FILE);
+  const okRes = {}, failed = [], times = { ...(prevLatest.times || {}) };
+  const allRes = { ...(prevLatest.res || {}) };
+  for (const h of CFG.hotels) {
+    const r = readJson(new URL(`./${h.key}.json`, OUT_DIR), null);
+    if (r && r.ok) { okRes[h.key] = r.res; allRes[h.key] = r.res; times[h.key] = scanAt; }
+    else failed.push({ key: h.key, name: h.name, err: r ? (r.st.lastErr || '대부분 실패') : '조회 결과 없음' });
+  }
+  for (const k of Object.keys(allRes)) if (!CFG.hotels.find(h => h.key === k)) { delete allRes[k]; delete times[k]; }
+  const { state, alerts } = compare(okRes, today);
+  const newHotels = CFG.hotels.filter(h => okRes[h.key] && !(prevLatest.res || {})[h.key]).map(h => h.key);
+  fs.mkdirSync(new URL('./data/', import.meta.url), { recursive: true });
+  fs.writeFileSync(STATE_FILE, JSON.stringify(state));
+  fs.writeFileSync(LATEST_FILE, JSON.stringify({ scanAt, today, res: allRes, times }));
+  fs.writeFileSync(REPORT_FILE, buildReport(allRes, state, scanAt, times));
+
+  // 호텔별 4개월 최저가 (Claude 알림·첫 조회 안내용)
+  const best = {};
+  for (const h of CFG.hotels) {
+    let b = null;
+    for (const [ci, rows] of Object.entries(allRes[h.key] || {})) { const r = rows && rows[0]; if (r && ci >= today && (!b || r[2] < b.krw)) b = { date: ci, krw: r[2], room: r[0], plan: r[1] }; }
+    best[h.key] = { name: h.name, ...(b || {}) };
+  }
+  fs.writeFileSync(ALERTS_FILE, JSON.stringify({ runAt: scanAt, firstRun, newHotels, failed, alerts, best }, null, 1));
+
+  const lines = [];
+  if (alerts.length) lines.push(alertText(alerts, repoUrl));
+  if (firstRun || newHotels.length) {
+    const block = [`[HoteLux 알림] ${firstRun ? '첫 조회 완료!' : '새 호텔 첫 조회 완료!'} 조회 기간 내 최저가:`];
+    for (const h of CFG.hotels) if (firstRun || newHotels.includes(h.key)) { const b = best[h.key]; block.push(`- ${h.name}: ${b.krw ? `${fmtDate(b.date)} ${won(b.krw)}원` : '해당 요금 없음'}`); }
+    lines.push(block.join('\n'));
+  }
+  if (failed.length) lines.push(`[HoteLux 알림] 조회 실패: ${failed.map(f => `${f.name}(${f.err})`).join(', ')}. 해당 호텔은 이전 기록을 유지했어요.`);
+  if (lines.length) await telegram(lines.join('\n\n')); else console.log('알림 없음');
+}
+
+if (mode === 'scan') await runScan(arg ? [arg] : CFG.hotels.map(h => h.key));
+else if (mode === 'merge') await runMerge();
+else { await runScan(CFG.hotels.map(h => h.key)); await runMerge(); }
 
 // ---------- 테스트용 가짜 응답 (MOCK=1) ----------
 function mockResponse(body) {

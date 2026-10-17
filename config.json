@@ -1,5 +1,5 @@
 {
-  "days": 120,
+  "days": 180,
   "gapMs": 1500,
   "dropPct": 8,
   "planRe": "prive|virtuoso|exclusive",
@@ -21,6 +21,18 @@
       "key": "jw-marriott-seoul",
       "name": "JW 메리어트 서울(강남)",
       "id": "5b5963f48885d57e94df4a69",
+      "targetKrw": null
+    },
+    {
+      "key": "jw-marriott-dongdaemun",
+      "name": "JW 메리어트 동대문",
+      "id": "5b5964338885d57e94df4cec",
+      "targetKrw": null
+    },
+    {
+      "key": "shilla-seoul",
+      "name": "신라호텔 서울",
+      "id": "5b5964218885d57e94df4c33",
       "targetKrw": null
     },
     {
