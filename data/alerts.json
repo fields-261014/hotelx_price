@@ -1,0 +1,54 @@
+{
+ "runAt": "2026-10-17T13:48:16.457Z",
+ "firstRun": false,
+ "newHotels": [
+  "jw-marriott-dongdaemun",
+  "shilla-seoul"
+ ],
+ "failed": [],
+ "alerts": [],
+ "best": {
+  "park-hyatt-busan": {
+   "name": "파크 하얏트 부산",
+   "date": "2027-01-25",
+   "krw": 412500,
+   "room": "Standard Rate 1 King Bed-floor To Ceiling Windows-tv In Bathroomviews-marina -city View",
+   "plan": "Hyatt Prive"
+  },
+  "grand-hyatt-seoul": {
+   "name": "그랜드 하얏트 서울",
+   "date": "2027-01-24",
+   "krw": 314600,
+   "room": "1 King Bed",
+   "plan": "Hyatt Prive Adpr"
+  },
+  "jw-marriott-seoul": {
+   "name": "JW 메리어트 서울(강남)",
+   "date": "2027-01-03",
+   "krw": 580800,
+   "room": "Guest Room 1 King",
+   "plan": "HoteLux Exclusive Rate"
+  },
+  "jw-marriott-dongdaemun": {
+   "name": "JW 메리어트 동대문",
+   "date": "2027-01-06",
+   "krw": 435600,
+   "room": "Luminous Exclusive Rate  Authorized Travel Advisors Only  Deluxe Guest Room 1 King",
+   "plan": "Exclusive Rate"
+  },
+  "shilla-seoul": {
+   "name": "신라호텔 서울",
+   "date": "2027-02-10",
+   "krw": 462000,
+   "room": "Deluxe Room, 1 King",
+   "plan": "Virtuoso Region Apac Program"
+  },
+  "signiel-busan": {
+   "name": "시그니엘 부산",
+   "date": "2026-12-01",
+   "krw": 375100,
+   "room": "Grand Deluxe Double Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate"
+  }
+ }
+}
