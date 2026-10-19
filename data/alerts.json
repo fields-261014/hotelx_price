@@ -1,9 +1,40 @@
 {
- "runAt": "2026-10-18T11:38:10.752Z",
+ "runAt": "2026-10-19T00:34:28.120Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
- "alerts": [],
+ "alerts": [
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-10-20",
+   "room": "1 King Bed Corner",
+   "plan": "Hyatt Prive",
+   "prev": 1412070,
+   "now": 1116830,
+   "kind": "drop",
+   "pct": 20.9
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-10-24",
+   "room": "Grand Executive Suite King",
+   "plan": "Hyatt Prive",
+   "prev": 2046110,
+   "now": 1808950,
+   "kind": "drop",
+   "pct": 11.6
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-10-25",
+   "room": "1 King Bed River View",
+   "plan": "Hyatt Prive",
+   "prev": 945010,
+   "now": 836110,
+   "kind": "drop",
+   "pct": 11.5
+  }
+ ],
  "best": {
   "park-hyatt-busan": {
    "name": "파크 하얏트 부산",
