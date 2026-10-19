@@ -1,38 +1,18 @@
 {
- "runAt": "2026-10-19T06:42:33.531Z",
+ "runAt": "2026-10-19T11:51:05.405Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
  "alerts": [
   {
    "hotel": "그랜드 하얏트 서울",
-   "date": "2026-10-20",
-   "room": "1 King Bed Club Access",
-   "plan": "Hyatt Prive",
-   "prev": 1812580,
-   "now": 1606880,
-   "kind": "drop",
-   "pct": 11.3
-  },
-  {
-   "hotel": "그랜드 하얏트 서울",
-   "date": "2026-10-23",
+   "date": "2026-10-22",
    "room": "1 King Bed Corner",
    "plan": "Hyatt Prive",
-   "prev": 1164020,
-   "now": 1034550,
+   "prev": 1157970,
+   "now": 1040600,
    "kind": "drop",
-   "pct": 11.1
-  },
-  {
-   "hotel": "그랜드 하얏트 서울",
-   "date": "2026-10-24",
-   "room": "1 King Bed Corner",
-   "plan": "Hyatt Prive",
-   "prev": 1166440,
-   "now": 1046650,
-   "kind": "drop",
-   "pct": 10.3
+   "pct": 10.1
   }
  ],
  "best": {
@@ -45,9 +25,9 @@
   },
   "grand-hyatt-seoul": {
    "name": "그랜드 하얏트 서울",
-   "date": "2027-01-24",
-   "krw": 314600,
-   "room": "1 King Bed",
+   "date": "2026-12-01",
+   "krw": 337590,
+   "room": "2 Twin Beds",
    "plan": "Hyatt Prive Adpr"
   },
   "jw-marriott-seoul": {
