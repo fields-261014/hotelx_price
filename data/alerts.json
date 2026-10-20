@@ -1,28 +1,68 @@
 {
- "runAt": "2026-10-20T06:40:07.962Z",
+ "runAt": "2026-10-20T11:51:50.814Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
  "alerts": [
   {
-   "hotel": "그랜드 하얏트 서울",
-   "date": "2026-11-09",
-   "room": "1 King Bed River View",
-   "plan": "Hyatt Prive Adpr",
-   "prev": 1085370,
-   "now": 914760,
+   "hotel": "파크 하얏트 부산",
+   "date": "2026-10-22",
+   "room": "Standard Rate 1 King Bed-floor To Ceiling Windows-tv In Bathroomviews-marina -city View",
+   "plan": "Hyatt Prive",
+   "prev": 660000,
+   "now": 451000,
    "kind": "drop",
-   "pct": 15.7
+   "pct": 31.7
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-10-20",
+   "room": "2 Twin Beds Club Access",
+   "plan": "Hyatt Prive",
+   "prev": 1577840,
+   "now": 1276550,
+   "kind": "drop",
+   "pct": 19.1
   },
   {
    "hotel": "시그니엘 부산",
-   "date": "2026-10-25",
+   "date": "2026-11-25",
    "room": "Grand Deluxe Double Mipo Harbor View",
    "plan": "HoteLux Exclusive Rate",
-   "prev": 532400,
-   "now": 484000,
+   "prev": 423500,
+   "now": 375100,
    "kind": "drop",
-   "pct": 9.1
+   "pct": 11.4
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2026-11-25",
+   "room": "Premier Twin, Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 484000,
+   "now": 435600,
+   "kind": "drop",
+   "pct": 10
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2026-11-27",
+   "room": "Grand Deluxe Double Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 508200,
+   "now": 459800,
+   "kind": "drop",
+   "pct": 9.5
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2026-11-27",
+   "room": "Premier Twin, Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 556600,
+   "now": 508200,
+   "kind": "drop",
+   "pct": 8.7
   }
  ],
  "best": {
@@ -35,9 +75,9 @@
   },
   "grand-hyatt-seoul": {
    "name": "그랜드 하얏트 서울",
-   "date": "2027-01-06",
-   "krw": 338800,
-   "room": "1 King Bed",
+   "date": "2026-12-01",
+   "krw": 325490,
+   "room": "2 Twin Beds",
    "plan": "Hyatt Prive Adpr"
   },
   "jw-marriott-seoul": {
