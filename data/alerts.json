@@ -1,28 +1,18 @@
 {
- "runAt": "2026-10-22T06:43:10.612Z",
+ "runAt": "2026-10-22T11:52:17.749Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
  "alerts": [
   {
-   "hotel": "그랜드 하얏트 서울",
-   "date": "2026-10-24",
-   "room": "1 King Bed River View",
-   "plan": "Hyatt Prive",
-   "prev": 1476200,
-   "now": 1028500,
-   "kind": "drop",
-   "pct": 30.3
-  },
-  {
    "hotel": "시그니엘 부산",
    "date": "2026-11-06",
-   "room": "Signiel Premier Family Twin, City View",
+   "room": "Premier Twin, Mipo Harbor View",
    "plan": "HoteLux Exclusive Rate",
-   "prev": 883300,
-   "now": 762300,
+   "prev": 726000,
+   "now": 641300,
    "kind": "drop",
-   "pct": 13.7
+   "pct": 11.7
   }
  ],
  "best": {
