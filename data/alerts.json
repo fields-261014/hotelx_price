@@ -1,78 +1,38 @@
 {
- "runAt": "2026-10-21T11:45:49.655Z",
+ "runAt": "2026-10-22T00:37:10.046Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
  "alerts": [
   {
    "hotel": "그랜드 하얏트 서울",
-   "date": "2026-10-24",
-   "room": "Diplomatic Suite",
+   "date": "2026-10-26",
+   "room": "1 King Bed Mountain View",
    "plan": "Hyatt Prive",
-   "prev": 2449040,
-   "now": 2244550,
+   "prev": 942590,
+   "now": 827640,
    "kind": "drop",
-   "pct": 8.3
+   "pct": 12.2
   },
   {
-   "hotel": "신라호텔 서울",
-   "date": "2027-01-16",
-   "room": "Deluxe Room, 1 King",
-   "plan": "Virtuoso Region Apac Program",
-   "prev": 880000,
-   "now": 770000,
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-10-26",
+   "room": "1 King Bed River View",
+   "plan": "Hyatt Prive",
+   "prev": 982520,
+   "now": 863940,
    "kind": "drop",
-   "pct": 12.5
+   "pct": 12.1
   },
   {
-   "hotel": "신라호텔 서울",
-   "date": "2027-01-16",
-   "room": "Deluxe Room, 2 Twins",
-   "plan": "Virtuoso Region Apac Program",
-   "prev": 880000,
-   "now": 770000,
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-10-27",
+   "room": "1 King Bed River View",
+   "plan": "Hyatt Prive",
+   "prev": 1265660,
+   "now": 1141030,
    "kind": "drop",
-   "pct": 12.5
-  },
-  {
-   "hotel": "신라호텔 서울",
-   "date": "2027-03-13",
-   "room": "Deluxe Room, 2 Twins",
-   "plan": "Virtuoso Region Apac Program",
-   "prev": 1265000,
-   "now": 1100000,
-   "kind": "drop",
-   "pct": 13
-  },
-  {
-   "hotel": "신라호텔 서울",
-   "date": "2027-03-13",
-   "room": "Business Deluxe Room, 1 King",
-   "plan": "Virtuoso Region Apac Program",
-   "prev": 1430000,
-   "now": 1265000,
-   "kind": "drop",
-   "pct": 11.5
-  },
-  {
-   "hotel": "신라호텔 서울",
-   "date": "2027-04-10",
-   "room": "Deluxe Room, 1 King",
-   "plan": "Virtuoso Region Apac Program",
-   "prev": 1210000,
-   "now": 1100000,
-   "kind": "drop",
-   "pct": 9.1
-  },
-  {
-   "hotel": "신라호텔 서울",
-   "date": "2027-04-10",
-   "room": "Deluxe Room, 2 Twins",
-   "plan": "Virtuoso Region Apac Program",
-   "prev": 1210000,
-   "now": 1100000,
-   "kind": "drop",
-   "pct": 9.1
+   "pct": 9.8
   }
  ],
  "best": {
@@ -86,7 +46,7 @@
   "grand-hyatt-seoul": {
    "name": "그랜드 하얏트 서울",
    "date": "2026-12-03",
-   "krw": 349690,
+   "krw": 337590,
    "room": "1 King Bed",
    "plan": "Hyatt Prive Adpr"
   },
