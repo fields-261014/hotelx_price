@@ -1,58 +1,38 @@
 {
- "runAt": "2026-10-23T00:43:29.563Z",
+ "runAt": "2026-10-23T06:47:21.688Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
  "alerts": [
   {
    "hotel": "파크 하얏트 부산",
-   "date": "2026-10-25",
-   "room": "Standard Rate 1 King Bed-floor To Ceiling Windows-tv In Bathroomviews-marina -city View",
+   "date": "2026-10-27",
+   "room": "2 Twin Beds Family Deluxe 1 Queen Bed And 1 Single Bed",
    "plan": "Hyatt Prive",
-   "prev": 693000,
-   "now": 526900,
+   "prev": 704000,
+   "now": 495000,
    "kind": "drop",
-   "pct": 24
+   "pct": 29.7
   },
   {
    "hotel": "파크 하얏트 부산",
-   "date": "2026-10-25",
-   "room": "1 King Bed Deluxe",
+   "date": "2026-10-27",
+   "room": "1 King Bed with Ocean View",
    "plan": "Hyatt Prive",
-   "prev": 748000,
-   "now": 631400,
+   "prev": 792000,
+   "now": 583000,
    "kind": "drop",
-   "pct": 15.6
+   "pct": 26.4
   },
   {
    "hotel": "그랜드 하얏트 서울",
    "date": "2026-10-24",
-   "room": "1 King Bed River View",
+   "room": "1 King Bed Club Access",
    "plan": "Hyatt Prive",
-   "prev": 1028500,
-   "now": 877250,
+   "prev": 1614140,
+   "now": 1448370,
    "kind": "drop",
-   "pct": 14.7
-  },
-  {
-   "hotel": "시그니엘 부산",
-   "date": "2026-11-06",
-   "room": "Signiel Premier Double, Mipo Harbor View",
-   "plan": "HoteLux Exclusive Rate",
-   "prev": 822800,
-   "now": 701800,
-   "kind": "drop",
-   "pct": 14.7
-  },
-  {
-   "hotel": "시그니엘 부산",
-   "date": "2026-11-06",
-   "room": "Signiel Premier Twin, Mipo Harbor View",
-   "plan": "HoteLux Exclusive Rate",
-   "prev": 822800,
-   "now": 701800,
-   "kind": "drop",
-   "pct": 14.7
+   "pct": 10.3
   }
  ],
  "best": {
@@ -65,8 +45,8 @@
   },
   "grand-hyatt-seoul": {
    "name": "그랜드 하얏트 서울",
-   "date": "2026-12-03",
-   "krw": 337590,
+   "date": "2026-12-15",
+   "krw": 352110,
    "room": "1 King Bed",
    "plan": "Hyatt Prive Adpr"
   },
@@ -86,8 +66,8 @@
   },
   "shilla-seoul": {
    "name": "신라호텔 서울",
-   "date": "2027-02-10",
-   "krw": 462000,
+   "date": "2027-01-11",
+   "krw": 495000,
    "room": "Deluxe Room, 1 King",
    "plan": "Virtuoso Region Apac Program"
   },
