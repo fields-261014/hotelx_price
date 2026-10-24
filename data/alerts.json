@@ -1,20 +1,9 @@
 {
- "runAt": "2026-10-24T06:38:12.168Z",
+ "runAt": "2026-10-24T11:44:30.152Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
- "alerts": [
-  {
-   "hotel": "그랜드 하얏트 서울",
-   "date": "2026-10-24",
-   "room": "1 King Bed Club Access",
-   "plan": "Hyatt Prive",
-   "prev": 1448370,
-   "now": 1297120,
-   "kind": "drop",
-   "pct": 10.4
-  }
- ],
+ "alerts": [],
  "best": {
   "park-hyatt-busan": {
    "name": "파크 하얏트 부산",
