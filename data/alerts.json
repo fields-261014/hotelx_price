@@ -1,38 +1,218 @@
 {
- "runAt": "2026-10-26T00:35:19.443Z",
+ "runAt": "2026-10-26T06:46:12.284Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
  "alerts": [
   {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-11-02",
+   "room": "2 Twin Beds River View",
+   "plan": "Hyatt Prive",
+   "prev": 1185800,
+   "now": 1021240,
+   "kind": "drop",
+   "pct": 13.9
+  },
+  {
    "hotel": "시그니엘 부산",
-   "date": "2026-11-13",
+   "date": "2027-01-08",
+   "room": "Grand Deluxe Double Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 544500,
+   "now": 484000,
+   "kind": "drop",
+   "pct": 11.1
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-08",
    "room": "Premier Twin, Mipo Harbor View",
    "plan": "HoteLux Exclusive Rate",
-   "prev": 556600,
-   "now": 496100,
+   "prev": 605000,
+   "now": 544500,
    "kind": "drop",
-   "pct": 10.9
+   "pct": 10
   },
   {
    "hotel": "시그니엘 부산",
-   "date": "2027-04-13",
+   "date": "2027-01-09",
    "room": "Grand Deluxe Double Mipo Harbor View",
    "plan": "HoteLux Exclusive Rate",
-   "prev": 447700,
-   "now": 399300,
+   "prev": 726000,
+   "now": 665500,
    "kind": "drop",
-   "pct": 10.8
+   "pct": 8.3
   },
   {
    "hotel": "시그니엘 부산",
-   "date": "2027-04-14",
+   "date": "2027-01-10",
    "room": "Grand Deluxe Double Mipo Harbor View",
    "plan": "HoteLux Exclusive Rate",
-   "prev": 447700,
-   "now": 399300,
+   "prev": 544500,
+   "now": 484000,
    "kind": "drop",
-   "pct": 10.8
+   "pct": 11.1
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-10",
+   "room": "Premier Twin, Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 605000,
+   "now": 544500,
+   "kind": "drop",
+   "pct": 10
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-15",
+   "room": "Grand Deluxe Double Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 544500,
+   "now": 484000,
+   "kind": "drop",
+   "pct": 11.1
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-15",
+   "room": "Premier Twin, Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 605000,
+   "now": 544500,
+   "kind": "drop",
+   "pct": 10
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-16",
+   "room": "Grand Deluxe Double Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 726000,
+   "now": 665500,
+   "kind": "drop",
+   "pct": 8.3
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-17",
+   "room": "Grand Deluxe Double Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 544500,
+   "now": 484000,
+   "kind": "drop",
+   "pct": 11.1
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-17",
+   "room": "Premier Twin, Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 605000,
+   "now": 544500,
+   "kind": "drop",
+   "pct": 10
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-22",
+   "room": "Grand Deluxe Double Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 544500,
+   "now": 484000,
+   "kind": "drop",
+   "pct": 11.1
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-22",
+   "room": "Premier Twin, Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 605000,
+   "now": 544500,
+   "kind": "drop",
+   "pct": 10
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-23",
+   "room": "Grand Deluxe Double Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 726000,
+   "now": 665500,
+   "kind": "drop",
+   "pct": 8.3
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-24",
+   "room": "Grand Deluxe Double Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 544500,
+   "now": 484000,
+   "kind": "drop",
+   "pct": 11.1
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-24",
+   "room": "Premier Twin, Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 605000,
+   "now": 544500,
+   "kind": "drop",
+   "pct": 10
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-29",
+   "room": "Grand Deluxe Double Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 544500,
+   "now": 484000,
+   "kind": "drop",
+   "pct": 11.1
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-29",
+   "room": "Premier Twin, Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 605000,
+   "now": 544500,
+   "kind": "drop",
+   "pct": 10
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-30",
+   "room": "Grand Deluxe Double Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 726000,
+   "now": 665500,
+   "kind": "drop",
+   "pct": 8.3
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-31",
+   "room": "Grand Deluxe Double Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 544500,
+   "now": 484000,
+   "kind": "drop",
+   "pct": 11.1
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2027-01-31",
+   "room": "Premier Twin, Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 605000,
+   "now": 544500,
+   "kind": "drop",
+   "pct": 10
   }
  ],
  "best": {
@@ -45,8 +225,8 @@
   },
   "grand-hyatt-seoul": {
    "name": "그랜드 하얏트 서울",
-   "date": "2026-12-03",
-   "krw": 341220,
+   "date": "2026-12-14",
+   "krw": 348480,
    "room": "1 King Bed",
    "plan": "Hyatt Prive Adpr"
   },
@@ -73,8 +253,8 @@
   },
   "signiel-busan": {
    "name": "시그니엘 부산",
-   "date": "2026-11-25",
-   "krw": 375100,
+   "date": "2026-11-11",
+   "krw": 363000,
    "room": "Grand Deluxe Double Mipo Harbor View",
    "plan": "HoteLux Exclusive Rate"
   }
