@@ -1,9 +1,90 @@
 {
- "runAt": "2026-10-29T00:46:45.183Z",
+ "runAt": "2026-10-29T06:50:05.907Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
- "alerts": [],
+ "alerts": [
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-11-02",
+   "room": "1 King Bed Corner",
+   "plan": "Hyatt Prive",
+   "prev": 1430220,
+   "now": 1251140,
+   "kind": "drop",
+   "pct": 12.5
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-11-03",
+   "room": "1 King Bed Corner",
+   "plan": "Hyatt Prive",
+   "prev": 1199110,
+   "now": 1068430,
+   "kind": "drop",
+   "pct": 10.9
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-11-03",
+   "room": "2 Twin Beds Corner",
+   "plan": "Hyatt Prive",
+   "prev": 1199110,
+   "now": 1068430,
+   "kind": "drop",
+   "pct": 10.9
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2026-11-04",
+   "room": "Signiel Premier Twin, Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 532400,
+   "now": 471900,
+   "kind": "drop",
+   "pct": 11.4
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2026-11-05",
+   "room": "Premier Double, Ocean View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 532400,
+   "now": 447700,
+   "kind": "drop",
+   "pct": 15.9
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2026-11-05",
+   "room": "Signiel Premier Family Twin, City View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 592900,
+   "now": 532400,
+   "kind": "drop",
+   "pct": 10.2
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2026-11-06",
+   "room": "Premier Twin, Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 605000,
+   "now": 544500,
+   "kind": "drop",
+   "pct": 10
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2026-11-10",
+   "room": "Signiel Premier Double, Mipo Harbor View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 532400,
+   "now": 471900,
+   "kind": "drop",
+   "pct": 11.4
+  }
+ ],
  "best": {
   "park-hyatt-busan": {
    "name": "파크 하얏트 부산",
@@ -42,7 +123,7 @@
   },
   "signiel-busan": {
    "name": "시그니엘 부산",
-   "date": "2026-11-11",
+   "date": "2026-11-03",
    "krw": 363000,
    "room": "Grand Deluxe Double Mipo Harbor View",
    "plan": "HoteLux Exclusive Rate"
