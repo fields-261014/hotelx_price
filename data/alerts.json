@@ -1,88 +1,18 @@
 {
- "runAt": "2026-10-29T11:55:09.122Z",
+ "runAt": "2026-10-30T00:48:36.674Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
  "alerts": [
   {
-   "hotel": "파크 하얏트 부산",
-   "date": "2026-10-30",
-   "room": "1 King Bed Deluxe",
-   "plan": "Hyatt Prive",
-   "prev": 704000,
-   "now": 616000,
-   "kind": "drop",
-   "pct": 12.5
-  },
-  {
-   "hotel": "파크 하얏트 부산",
-   "date": "2026-10-31",
-   "room": "Standard Rate 1 King Bed-floor To Ceiling Windows-tv In Bathroomviews-marina -city View",
-   "plan": "Hyatt Prive",
-   "prev": 705100,
-   "now": 627000,
-   "kind": "drop",
-   "pct": 11.1
-  },
-  {
-   "hotel": "파크 하얏트 부산",
-   "date": "2026-10-31",
-   "room": "1 King Bed Deluxe",
-   "plan": "Hyatt Prive",
-   "prev": 782100,
-   "now": 682000,
-   "kind": "drop",
-   "pct": 12.8
-  },
-  {
-   "hotel": "그랜드 하얏트 서울",
-   "date": "2026-10-29",
-   "room": "Diplomatic Suite",
-   "plan": "Hyatt Prive",
-   "prev": 2601500,
-   "now": 2306260,
-   "kind": "drop",
-   "pct": 11.3
-  },
-  {
    "hotel": "시그니엘 부산",
-   "date": "2026-11-03",
-   "room": "Signiel Premier Double, Mipo Harbor View",
-   "plan": "HoteLux Exclusive Rate",
-   "prev": 532400,
-   "now": 471900,
-   "kind": "drop",
-   "pct": 11.4
-  },
-  {
-   "hotel": "시그니엘 부산",
-   "date": "2026-11-03",
+   "date": "2026-11-06",
    "room": "Signiel Premier Twin, Mipo Harbor View",
    "plan": "HoteLux Exclusive Rate",
-   "prev": 532400,
-   "now": 471900,
+   "prev": 701800,
+   "now": 641300,
    "kind": "drop",
-   "pct": 11.4
-  },
-  {
-   "hotel": "시그니엘 부산",
-   "date": "2026-11-09",
-   "room": "Signiel Premier Twin, Mipo Harbor View",
-   "plan": "HoteLux Exclusive Rate",
-   "prev": 532400,
-   "now": 471900,
-   "kind": "drop",
-   "pct": 11.4
-  },
-  {
-   "hotel": "시그니엘 부산",
-   "date": "2026-11-10",
-   "room": "Signiel Premier Family Twin, City View",
-   "plan": "HoteLux Exclusive Rate",
-   "prev": 592900,
-   "now": 532400,
-   "kind": "drop",
-   "pct": 10.2
+   "pct": 8.6
   }
  ],
  "best": {
@@ -123,7 +53,7 @@
   },
   "signiel-busan": {
    "name": "시그니엘 부산",
-   "date": "2026-11-11",
+   "date": "2026-11-10",
    "krw": 363000,
    "room": "Grand Deluxe Double Mipo Harbor View",
    "plan": "HoteLux Exclusive Rate"
