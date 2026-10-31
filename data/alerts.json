@@ -1,48 +1,38 @@
 {
- "runAt": "2026-10-30T11:50:36.005Z",
+ "runAt": "2026-10-31T00:51:36.848Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
  "alerts": [
   {
    "hotel": "그랜드 하얏트 서울",
-   "date": "2026-11-02",
-   "room": "1 King Bed Corner",
-   "plan": "Hyatt Prive",
-   "prev": 1067220,
-   "now": 941380,
-   "kind": "drop",
-   "pct": 11.8
-  },
-  {
-   "hotel": "그랜드 하얏트 서울",
-   "date": "2026-11-02",
-   "room": "2 Twin Beds Corner",
-   "plan": "Hyatt Prive",
-   "prev": 1067220,
-   "now": 941380,
-   "kind": "drop",
-   "pct": 11.8
-  },
-  {
-   "hotel": "그랜드 하얏트 서울",
    "date": "2026-11-04",
    "room": "1 King Bed Corner",
    "plan": "Hyatt Prive",
-   "prev": 1391500,
-   "now": 1216050,
+   "prev": 1216050,
+   "now": 1010350,
    "kind": "drop",
-   "pct": 12.6
+   "pct": 16.9
   },
   {
    "hotel": "그랜드 하얏트 서울",
    "date": "2026-11-04",
    "room": "2 Twin Beds Corner",
    "plan": "Hyatt Prive",
-   "prev": 1391500,
-   "now": 1216050,
+   "prev": 1216050,
+   "now": 1010350,
    "kind": "drop",
-   "pct": 12.6
+   "pct": 16.9
+  },
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2026-11-04",
+   "room": "Signiel Premier Family Twin, City View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 592900,
+   "now": 532400,
+   "kind": "drop",
+   "pct": 10.2
   }
  ],
  "best": {
