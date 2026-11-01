@@ -1,9 +1,20 @@
 {
- "runAt": "2026-11-01T00:50:10.568Z",
+ "runAt": "2026-11-01T06:54:54.712Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
- "alerts": [],
+ "alerts": [
+  {
+   "hotel": "시그니엘 부산",
+   "date": "2026-11-10",
+   "room": "Signiel Premier Double, Ocean View",
+   "plan": "HoteLux Exclusive Rate",
+   "prev": 592900,
+   "now": 532400,
+   "kind": "drop",
+   "pct": 10.2
+  }
+ ],
  "best": {
   "park-hyatt-busan": {
    "name": "파크 하얏트 부산",
@@ -42,7 +53,7 @@
   },
   "signiel-busan": {
    "name": "시그니엘 부산",
-   "date": "2026-11-09",
+   "date": "2026-11-11",
    "krw": 363000,
    "room": "Grand Deluxe Double Mipo Harbor View",
    "plan": "HoteLux Exclusive Rate"
