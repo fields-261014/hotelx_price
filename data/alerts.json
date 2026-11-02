@@ -1,20 +1,40 @@
 {
- "runAt": "2026-11-02T07:14:30.075Z",
+ "runAt": "2026-11-02T11:53:35.695Z",
  "firstRun": false,
  "newHotels": [],
- "failed": [],
- "alerts": [
+ "failed": [
   {
-   "hotel": "그랜드 하얏트 서울",
-   "date": "2026-11-03",
-   "room": "2 Twin Beds River View",
-   "plan": "Hyatt Prive",
-   "prev": 949850,
-   "now": 842160,
-   "kind": "drop",
-   "pct": 11.3
+   "key": "park-hyatt-busan",
+   "name": "파크 하얏트 부산",
+   "err": "尚未开通权限"
+  },
+  {
+   "key": "grand-hyatt-seoul",
+   "name": "그랜드 하얏트 서울",
+   "err": "尚未开通权限"
+  },
+  {
+   "key": "jw-marriott-seoul",
+   "name": "JW 메리어트 서울(강남)",
+   "err": "尚未开通权限"
+  },
+  {
+   "key": "jw-marriott-dongdaemun",
+   "name": "JW 메리어트 동대문",
+   "err": "尚未开通权限"
+  },
+  {
+   "key": "shilla-seoul",
+   "name": "신라호텔 서울",
+   "err": "尚未开通权限"
+  },
+  {
+   "key": "signiel-busan",
+   "name": "시그니엘 부산",
+   "err": "尚未开通权限"
   }
  ],
+ "alerts": [],
  "best": {
   "park-hyatt-busan": {
    "name": "파크 하얏트 부산",
