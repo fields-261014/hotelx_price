@@ -1,54 +1,34 @@
 {
- "runAt": "2026-11-02T11:53:35.695Z",
+ "runAt": "2026-11-03T00:55:12.735Z",
  "firstRun": false,
  "newHotels": [],
- "failed": [
+ "failed": [],
+ "alerts": [
   {
-   "key": "park-hyatt-busan",
-   "name": "파크 하얏트 부산",
-   "err": "尚未开通权限"
-  },
-  {
-   "key": "grand-hyatt-seoul",
-   "name": "그랜드 하얏트 서울",
-   "err": "尚未开通权限"
-  },
-  {
-   "key": "jw-marriott-seoul",
-   "name": "JW 메리어트 서울(강남)",
-   "err": "尚未开通权限"
-  },
-  {
-   "key": "jw-marriott-dongdaemun",
-   "name": "JW 메리어트 동대문",
-   "err": "尚未开通权限"
-  },
-  {
-   "key": "shilla-seoul",
-   "name": "신라호텔 서울",
-   "err": "尚未开通权限"
-  },
-  {
-   "key": "signiel-busan",
-   "name": "시그니엘 부산",
-   "err": "尚未开通权限"
+   "hotel": "파크 하얏트 부산",
+   "date": "2026-11-27",
+   "room": "Standard Rate 1 King Bed-floor To Ceiling Windows-tv In Bathroomviews-marina -city View",
+   "plan": "Hyatt Prive",
+   "prev": 664400,
+   "now": 603900,
+   "kind": "drop",
+   "pct": 9.1
   }
  ],
- "alerts": [],
  "best": {
   "park-hyatt-busan": {
    "name": "파크 하얏트 부산",
-   "date": "2027-01-11",
-   "krw": 388300,
-   "room": "Standard Rate 1 King Bed-floor To Ceiling Windows-tv In Bathroomviews-marina -city View",
-   "plan": "Hyatt Prive"
+   "date": "2027-01-04",
+   "krw": 333795,
+   "room": "Hyatt Prive Save 15 Pct 1 King Bed-floor To Ceiling Windows-tv In Bathroomviews-marina -city View",
+   "plan": "Hyatt Prive Save 15 Pct"
   },
   "grand-hyatt-seoul": {
    "name": "그랜드 하얏트 서울",
    "date": "2027-01-04",
-   "krw": 459800,
-   "room": "1 King Bed",
-   "plan": "Hyatt Prive"
+   "krw": 413820,
+   "room": "Hyatt Prive Save 10 Pct 1 King Bed-1 King Bed-30 Sq M-picturesque View- Free Wififloor To Ceiling Window-round",
+   "plan": "Hyatt Prive Save 10 Pct"
   },
   "jw-marriott-seoul": {
    "name": "JW 메리어트 서울(강남)",
@@ -73,7 +53,7 @@
   },
   "signiel-busan": {
    "name": "시그니엘 부산",
-   "date": "2026-11-03",
+   "date": "2026-11-11",
    "krw": 363000,
    "room": "Grand Deluxe Double Mipo Harbor View",
    "plan": "HoteLux Exclusive Rate"
