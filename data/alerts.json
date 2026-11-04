@@ -1,18 +1,18 @@
 {
- "runAt": "2026-11-04T07:17:47.981Z",
+ "runAt": "2026-11-04T12:15:00.365Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
  "alerts": [
   {
-   "hotel": "시그니엘 부산",
-   "date": "2026-11-10",
-   "room": "Premier Double, Ocean View",
-   "plan": "HoteLux Exclusive Rate",
-   "prev": 520300,
-   "now": 447700,
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-11-04",
+   "room": "1 King Bed Corner",
+   "plan": "Hyatt Prive",
+   "prev": 1010350,
+   "now": 908710,
    "kind": "drop",
-   "pct": 14
+   "pct": 10.1
   }
  ],
  "best": {
