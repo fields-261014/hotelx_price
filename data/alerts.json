@@ -1,18 +1,68 @@
 {
- "runAt": "2026-11-10T12:13:24.663Z",
+ "runAt": "2026-11-11T00:59:50.984Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
  "alerts": [
   {
-   "hotel": "시그니엘 부산",
-   "date": "2026-11-16",
-   "room": "Premier Double, Ocean View",
-   "plan": "HoteLux Exclusive Rate",
-   "prev": 520300,
-   "now": 447700,
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-11-11",
+   "room": "2 Twin Beds Mountain View",
+   "plan": "Hyatt Prive",
+   "prev": 1057540,
+   "now": 711480,
    "kind": "drop",
-   "pct": 14
+   "pct": 32.7
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-11-14",
+   "room": "1 King Bed River View",
+   "plan": "Hyatt Prive",
+   "prev": 1191850,
+   "now": 890560,
+   "kind": "drop",
+   "pct": 25.3
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-11-16",
+   "room": "1 King Bed Corner",
+   "plan": "Hyatt Prive",
+   "prev": 1195480,
+   "now": 911130,
+   "kind": "drop",
+   "pct": 23.8
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-11-17",
+   "room": "Hyatt Prive Save 10 Pct 2 Twin River Vw-2 Sgl Beds-30 Sq M-modernized- River Viewhigh Floor-free",
+   "plan": "Hyatt Prive Save 10 Pct",
+   "prev": 1014948,
+   "now": 890802,
+   "kind": "drop",
+   "pct": 12.2
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-11-17",
+   "room": "Hyatt Prive Save 10 Pct 1 King Corner-1 King Bed-45 Sq M-large Room- Free Wifiseparate Shower -bath-round",
+   "plan": "Hyatt Prive Save 10 Pct",
+   "prev": 1266507,
+   "now": 953964,
+   "kind": "drop",
+   "pct": 24.7
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-11-21",
+   "room": "Hyatt Prive Save 10 Pct 1 King Corner-1 King Bed-45 Sq M-large Room- Free Wifiseparate Shower -bath-round",
+   "plan": "Hyatt Prive Save 10 Pct",
+   "prev": 967032,
+   "now": 872289,
+   "kind": "drop",
+   "pct": 9.8
   }
  ],
  "best": {
