@@ -1,60 +1,9 @@
 {
- "runAt": "2026-11-11T07:14:43.566Z",
+ "runAt": "2026-11-11T12:18:14.243Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
- "alerts": [
-  {
-   "hotel": "그랜드 하얏트 서울",
-   "date": "2026-11-12",
-   "room": "2 Twin Beds River View",
-   "plan": "Hyatt Prive",
-   "prev": 831270,
-   "now": 744150,
-   "kind": "drop",
-   "pct": 10.5
-  },
-  {
-   "hotel": "그랜드 하얏트 서울",
-   "date": "2026-11-16",
-   "room": "1 King Bed Club Access",
-   "plan": "Hyatt Prive",
-   "prev": 1936000,
-   "now": 1775070,
-   "kind": "drop",
-   "pct": 8.3
-  },
-  {
-   "hotel": "신라호텔 서울",
-   "date": "2027-02-06",
-   "room": "Deluxe Room, 1 King",
-   "plan": "Virtuoso Region Apac Program",
-   "prev": 748000,
-   "now": 638000,
-   "kind": "drop",
-   "pct": 14.7
-  },
-  {
-   "hotel": "신라호텔 서울",
-   "date": "2027-02-06",
-   "room": "Deluxe Room, 2 Twins",
-   "plan": "Virtuoso Region Apac Program",
-   "prev": 748000,
-   "now": 638000,
-   "kind": "drop",
-   "pct": 14.7
-  },
-  {
-   "hotel": "시그니엘 부산",
-   "date": "2026-11-19",
-   "room": "Grand Deluxe Double Mipo Harbor View",
-   "plan": "HoteLux Exclusive Rate",
-   "prev": 411400,
-   "now": 375100,
-   "kind": "drop",
-   "pct": 8.8
-  }
- ],
+ "alerts": [],
  "best": {
   "park-hyatt-busan": {
    "name": "파크 하얏트 부산",
@@ -93,7 +42,7 @@
   },
   "signiel-busan": {
    "name": "시그니엘 부산",
-   "date": "2026-11-11",
+   "date": "2026-11-12",
    "krw": 363000,
    "room": "Grand Deluxe Double Mipo Harbor View",
    "plan": "HoteLux Exclusive Rate"
