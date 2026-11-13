@@ -1,18 +1,48 @@
 {
- "runAt": "2026-11-12T12:16:36.004Z",
+ "runAt": "2026-11-13T01:02:21.407Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
  "alerts": [
   {
-   "hotel": "시그니엘 부산",
-   "date": "2026-11-24",
-   "room": "Premier Double, Ocean View",
-   "plan": "HoteLux Exclusive Rate",
-   "prev": 496100,
-   "now": 447700,
+   "hotel": "파크 하얏트 부산",
+   "date": "2026-11-15",
+   "room": "1 King Bed Deluxe",
+   "plan": "Hyatt Prive",
+   "prev": 647900,
+   "now": 506000,
    "kind": "drop",
-   "pct": 9.8
+   "pct": 21.9
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-11-13",
+   "room": "1 King Bed River View",
+   "plan": "Hyatt Prive",
+   "prev": 900240,
+   "now": 827640,
+   "kind": "drop",
+   "pct": 8.1
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-11-28",
+   "room": "Hyatt Prive Save 10 Pct 1 King Mount Vw-1 King Bed-30 Sq M-modernized- Namsan View-high Floor-free",
+   "plan": "Hyatt Prive Save 10 Pct",
+   "prev": 1039995,
+   "now": 938718,
+   "kind": "drop",
+   "pct": 9.7
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-11-28",
+   "room": "1 King Bed Mountain View",
+   "plan": "Hyatt Prive",
+   "prev": 1138610,
+   "now": 1043020,
+   "kind": "drop",
+   "pct": 8.4
   }
  ],
  "best": {
