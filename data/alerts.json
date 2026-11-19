@@ -1,5 +1,5 @@
 {
- "runAt": "2026-11-19T15:17:47.611Z",
+ "runAt": "2026-11-19T19:50:52.907Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
@@ -7,29 +7,69 @@
   {
    "hotel": "파크 하얏트 부산",
    "date": "2026-11-21",
-   "room": "1 King Bed Deluxe",
+   "room": "Standard Rate 1 King Bed-floor To Ceiling Windows-tv In Bathroomviews-marina -city View",
    "plan": "Hyatt Prive",
-   "prev": 880000,
-   "now": 730400,
+   "prev": 643500,
+   "now": 550000,
    "kind": "drop",
-   "pct": 17
+   "pct": 14.5
   },
   {
-   "hotel": "파크 하얏트 부산",
-   "date": "2026-11-28",
-   "room": "Hyatt Prive Save 15 Pct 1 King Deluxe-king Bed-49 Sqm-marina View-large Work Deskfloor To Ceiling Windows-",
-   "plan": "Hyatt Prive Save 15 Pct",
-   "prev": 712470,
-   "now": 654500,
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-11-22",
+   "room": "2 Twin Beds Mountain View",
+   "plan": "Hyatt Prive",
+   "prev": 763510,
+   "now": 649770,
    "kind": "drop",
-   "pct": 8.1
+   "pct": 14.9
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-12-09",
+   "room": "Hyatt Prive Save 10 Pct 2 Twin Beds-2 Sgl Beds-30 Sq M-picturesque View Free Wififloor To Ceiling Window-round",
+   "plan": "Hyatt Prive Save 10 Pct",
+   "prev": 591327,
+   "now": 490050,
+   "kind": "drop",
+   "pct": 17.1
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2026-12-09",
+   "room": "2 Twin Beds",
+   "plan": "Hyatt Prive",
+   "prev": 657030,
+   "now": 544500,
+   "kind": "drop",
+   "pct": 17.1
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2027-05-14",
+   "room": "1 King Bed",
+   "plan": "Hyatt Prive Adpr",
+   "prev": 573540,
+   "now": 504570,
+   "kind": "drop",
+   "pct": 12
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2027-05-14",
+   "room": "2 Twin Beds",
+   "plan": "Hyatt Prive Adpr",
+   "prev": 573540,
+   "now": 504570,
+   "kind": "drop",
+   "pct": 12
   }
  ],
  "best": {
   "park-hyatt-busan": {
    "name": "파크 하얏트 부산",
-   "date": "2027-01-27",
-   "krw": 331925,
+   "date": "2027-01-25",
+   "krw": 329120,
    "room": "Hyatt Prive Save 15 Pct 1 King Bed-floor To Ceiling Windows-tv In Bathroomviews-marina -city View",
    "plan": "Hyatt Prive Save 15 Pct"
   },
