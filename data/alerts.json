@@ -1,5 +1,5 @@
 {
- "runAt": "2026-11-19T05:09:54.001Z",
+ "runAt": "2026-11-19T15:17:47.611Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
@@ -7,22 +7,22 @@
   {
    "hotel": "파크 하얏트 부산",
    "date": "2026-11-21",
-   "room": "Standard Rate 1 King Bed-floor To Ceiling Windows-tv In Bathroomviews-marina -city View",
+   "room": "1 King Bed Deluxe",
    "plan": "Hyatt Prive",
-   "prev": 737000,
-   "now": 643500,
+   "prev": 880000,
+   "now": 730400,
    "kind": "drop",
-   "pct": 12.7
+   "pct": 17
   },
   {
-   "hotel": "그랜드 하얏트 서울",
-   "date": "2026-11-19",
-   "room": "2 Twin Beds Mountain View",
-   "plan": "Hyatt Prive",
-   "prev": 992200,
-   "now": 747780,
+   "hotel": "파크 하얏트 부산",
+   "date": "2026-11-28",
+   "room": "Hyatt Prive Save 15 Pct 1 King Deluxe-king Bed-49 Sqm-marina View-large Work Deskfloor To Ceiling Windows-",
+   "plan": "Hyatt Prive Save 15 Pct",
+   "prev": 712470,
+   "now": 654500,
    "kind": "drop",
-   "pct": 24.6
+   "pct": 8.1
   }
  ],
  "best": {
