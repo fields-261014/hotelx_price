@@ -1,9 +1,50 @@
 {
- "runAt": "2026-11-20T14:58:08.420Z",
+ "runAt": "2026-11-20T19:29:40.476Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
- "alerts": [],
+ "alerts": [
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2027-03-30",
+   "room": "Hyatt Prive Save 10 Pct 1 King Bed-1 King Bed-30 Sq M-picturesque View- Free Wififloor To Ceiling Window-round",
+   "plan": "Hyatt Prive Save 10 Pct",
+   "prev": 546678,
+   "now": 484605,
+   "kind": "drop",
+   "pct": 11.4
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2027-03-30",
+   "room": "Hyatt Prive Save 10 Pct 2 Twin Beds-2 Sgl Beds-30 Sq M-picturesque View Free Wififloor To Ceiling Window-round",
+   "plan": "Hyatt Prive Save 10 Pct",
+   "prev": 546678,
+   "now": 484605,
+   "kind": "drop",
+   "pct": 11.4
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2027-04-11",
+   "room": "Hyatt Prive Save 10 Pct 1 King Bed-1 King Bed-30 Sq M-picturesque View- Free Wififloor To Ceiling Window-round",
+   "plan": "Hyatt Prive Save 10 Pct",
+   "prev": 514008,
+   "now": 472626,
+   "kind": "drop",
+   "pct": 8.1
+  },
+  {
+   "hotel": "그랜드 하얏트 서울",
+   "date": "2027-04-11",
+   "room": "Hyatt Prive Save 10 Pct 2 Twin Beds-2 Sgl Beds-30 Sq M-picturesque View Free Wififloor To Ceiling Window-round",
+   "plan": "Hyatt Prive Save 10 Pct",
+   "prev": 514008,
+   "now": 472626,
+   "kind": "drop",
+   "pct": 8.1
+  }
+ ],
  "best": {
   "park-hyatt-busan": {
    "name": "파크 하얏트 부산",
