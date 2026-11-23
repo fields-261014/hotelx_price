@@ -1,118 +1,58 @@
 {
- "runAt": "2026-11-23T04:39:23.342Z",
+ "runAt": "2026-11-23T17:12:47.960Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
  "alerts": [
   {
-   "hotel": "파크 하얏트 부산",
-   "date": "2026-11-27",
-   "room": "Hyatt Prive Save 15 Pct 1 King Bed-floor To Ceiling Windows-tv In Bathroomviews-marina -city View",
-   "plan": "Hyatt Prive Save 15 Pct",
-   "prev": 503965,
-   "now": 420750,
-   "kind": "drop",
-   "pct": 16.5
-  },
-  {
-   "hotel": "파크 하얏트 부산",
-   "date": "2026-11-27",
-   "room": "Hyatt Prive Save 15 Pct 1 King Deluxe-king Bed-49 Sqm-marina View-large Work Deskfloor To Ceiling Windows-",
-   "plan": "Hyatt Prive Save 15 Pct",
-   "prev": 565675,
-   "now": 467500,
-   "kind": "drop",
-   "pct": 17.4
-  },
-  {
-   "hotel": "파크 하얏트 부산",
-   "date": "2026-11-28",
-   "room": "Hyatt Prive Save 15 Pct 1 King Bed-floor To Ceiling Windows-tv In Bathroomviews-marina -city View",
-   "plan": "Hyatt Prive Save 15 Pct",
-   "prev": 607750,
-   "now": 514250,
-   "kind": "drop",
-   "pct": 15.4
-  },
-  {
-   "hotel": "파크 하얏트 부산",
-   "date": "2026-11-28",
-   "room": "Hyatt Prive Save 15 Pct 1 King Deluxe-king Bed-49 Sqm-marina View-large Work Deskfloor To Ceiling Windows-",
-   "plan": "Hyatt Prive Save 15 Pct",
-   "prev": 654500,
-   "now": 561000,
-   "kind": "drop",
-   "pct": 14.3
-  },
-  {
-   "hotel": "파크 하얏트 부산",
-   "date": "2026-12-05",
-   "room": "Hyatt Prive Save 15 Pct 1 King Deluxe-king Bed-49 Sqm-marina View-large Work Deskfloor To Ceiling Windows-",
-   "plan": "Hyatt Prive Save 15 Pct",
-   "prev": 662915,
-   "now": 607750,
-   "kind": "drop",
-   "pct": 8.3
-  },
-  {
    "hotel": "그랜드 하얏트 서울",
-   "date": "2026-12-12",
-   "room": "Hyatt Prive Save 10 Pct 1 King Corner-1 King Bed-45 Sq M-large Room- Free Wifiseparate Shower -bath-round",
-   "plan": "Hyatt Prive Save 10 Pct",
-   "prev": 1426590,
-   "now": 1257795,
-   "kind": "drop",
-   "pct": 11.8
-  },
-  {
-   "hotel": "그랜드 하얏트 서울",
-   "date": "2026-12-12",
-   "room": "1 King Bed Corner",
+   "date": "2026-11-26",
+   "room": "2 Twin Beds Mountain View",
    "plan": "Hyatt Prive",
-   "prev": 1585100,
-   "now": 1397550,
+   "prev": 908710,
+   "now": 762300,
    "kind": "drop",
-   "pct": 11.8
+   "pct": 16.1
   },
   {
    "hotel": "JW 메리어트 서울(강남)",
-   "date": "2026-12-23",
+   "date": "2027-03-26",
    "room": "Guest Room 1 King",
    "plan": "HoteLux Exclusive Rate",
-   "prev": 774400,
-   "now": 701800,
+   "prev": 968000,
+   "now": 847000,
    "kind": "drop",
-   "pct": 9.4
+   "pct": 12.5
   },
   {
    "hotel": "JW 메리어트 서울(강남)",
-   "date": "2026-12-27",
-   "room": "Guest Room 1 King",
+   "date": "2027-03-26",
+   "room": "Executive Lounge Access Guest Room 1 King",
    "plan": "HoteLux Exclusive Rate",
-   "prev": 798600,
-   "now": 726000,
+   "prev": 1125300,
+   "now": 1004300,
    "kind": "drop",
-   "pct": 9.1
+   "pct": 10.8
   },
   {
    "hotel": "JW 메리어트 서울(강남)",
-   "date": "2026-12-28",
+   "date": "2027-03-27",
    "room": "Guest Room 1 King",
    "plan": "HoteLux Exclusive Rate",
-   "prev": 798600,
-   "now": 726000,
+   "prev": 1089000,
+   "now": 907500,
    "kind": "drop",
-   "pct": 9.1
+   "pct": 16.7
   },
   {
    "hotel": "JW 메리어트 서울(강남)",
-   "date": "2026-12-29",
-   "room": "Guest Room 1 King",
+   "date": "2027-03-27",
+   "room": "Executive Lounge Access Guest Room 1 King",
    "plan": "HoteLux Exclusive Rate",
-   "prev": 798600,
-   "now": 726000,
+   "prev": 1246300,
+   "now": 1064800,
    "kind": "drop",
-   "pct": 9.1
+   "pct": 14.6
   }
  ],
  "best": {
@@ -153,7 +93,7 @@
   },
   "signiel-busan": {
    "name": "시그니엘 부산",
-   "date": "2026-11-23",
+   "date": "2026-11-24",
    "krw": 338800,
    "room": "Grand Deluxe Double Mipo Harbor View",
    "plan": "HoteLux Exclusive Rate"
