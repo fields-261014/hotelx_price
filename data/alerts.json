@@ -1,38 +1,28 @@
 {
- "runAt": "2026-11-24T07:43:18.895Z",
+ "runAt": "2026-11-24T17:06:33.354Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
  "alerts": [
   {
-   "hotel": "그랜드 하얏트 서울",
-   "date": "2026-11-28",
-   "room": "Hyatt Prive Save 10 Pct 1 King Mount Vw-1 King Bed-30 Sq M-modernized- Namsan View-high Floor-free",
-   "plan": "Hyatt Prive Save 10 Pct",
-   "prev": 811305,
-   "now": 679536,
-   "kind": "drop",
-   "pct": 16.2
-  },
-  {
-   "hotel": "그랜드 하얏트 서울",
-   "date": "2026-11-28",
-   "room": "1 King Bed Mountain View",
+   "hotel": "파크 하얏트 부산",
+   "date": "2026-11-27",
+   "room": "Standard Rate 1 King Bed-floor To Ceiling Windows-tv In Bathroomviews-marina -city View",
    "plan": "Hyatt Prive",
-   "prev": 901450,
-   "now": 755040,
+   "prev": 599500,
+   "now": 495000,
    "kind": "drop",
-   "pct": 16.2
+   "pct": 17.4
   },
   {
-   "hotel": "그랜드 하얏트 서울",
-   "date": "2027-01-03",
-   "room": "Hyatt Prive Save 10 Pct 2 Twin Beds-2 Sgl Beds-30 Sq M-picturesque View Free Wififloor To Ceiling Window-round",
-   "plan": "Hyatt Prive Save 10 Pct",
-   "prev": 565191,
-   "now": 511830,
+   "hotel": "파크 하얏트 부산",
+   "date": "2026-11-27",
+   "room": "1 King Bed Deluxe",
+   "plan": "Hyatt Prive",
+   "prev": 770000,
+   "now": 550000,
    "kind": "drop",
-   "pct": 9.4
+   "pct": 28.6
   }
  ],
  "best": {
