@@ -1,28 +1,18 @@
 {
- "runAt": "2026-11-25T16:47:42.689Z",
+ "runAt": "2026-11-25T20:52:37.500Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
  "alerts": [
   {
-   "hotel": "파크 하얏트 부산",
+   "hotel": "그랜드 하얏트 서울",
    "date": "2026-11-28",
-   "room": "Standard Rate 1 King Bed-floor To Ceiling Windows-tv In Bathroomviews-marina -city View",
+   "room": "1 King Bed River View",
    "plan": "Hyatt Prive",
-   "prev": 724900,
-   "now": 605000,
+   "prev": 1172490,
+   "now": 968000,
    "kind": "drop",
-   "pct": 16.5
-  },
-  {
-   "hotel": "파크 하얏트 부산",
-   "date": "2026-11-28",
-   "room": "1 King Bed Deluxe",
-   "plan": "Hyatt Prive",
-   "prev": 859100,
-   "now": 660000,
-   "kind": "drop",
-   "pct": 23.2
+   "pct": 17.4
   }
  ],
  "best": {
