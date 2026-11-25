@@ -1,18 +1,28 @@
 {
- "runAt": "2026-11-25T06:15:23.988Z",
+ "runAt": "2026-11-25T16:47:42.689Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
  "alerts": [
   {
-   "hotel": "JW 메리어트 서울(강남)",
-   "date": "2027-03-15",
-   "room": "Guest Room 1 King",
-   "plan": "HoteLux Exclusive Rate",
-   "prev": 665500,
+   "hotel": "파크 하얏트 부산",
+   "date": "2026-11-28",
+   "room": "Standard Rate 1 King Bed-floor To Ceiling Windows-tv In Bathroomviews-marina -city View",
+   "plan": "Hyatt Prive",
+   "prev": 724900,
    "now": 605000,
    "kind": "drop",
-   "pct": 9.1
+   "pct": 16.5
+  },
+  {
+   "hotel": "파크 하얏트 부산",
+   "date": "2026-11-28",
+   "room": "1 King Bed Deluxe",
+   "plan": "Hyatt Prive",
+   "prev": 859100,
+   "now": 660000,
+   "kind": "drop",
+   "pct": 23.2
   }
  ],
  "best": {
