@@ -1,30 +1,9 @@
 {
- "runAt": "2026-11-27T16:13:26.224Z",
+ "runAt": "2026-11-27T20:18:06.522Z",
  "firstRun": false,
  "newHotels": [],
  "failed": [],
- "alerts": [
-  {
-   "hotel": "그랜드 하얏트 서울",
-   "date": "2026-12-07",
-   "room": "Hyatt Prive Save 10 Pct 2 Twin Mount Vw-2 Sgl Beds-30 Sq M-modernized- Namsan View-high Floor-free Wifi-",
-   "plan": "Hyatt Prive Save 10 Pct",
-   "prev": 1078110,
-   "now": 686070,
-   "kind": "drop",
-   "pct": 36.4
-  },
-  {
-   "hotel": "JW 메리어트 서울(강남)",
-   "date": "2027-03-28",
-   "room": "Guest Room 1 King",
-   "plan": "HoteLux Exclusive Rate",
-   "prev": 834900,
-   "now": 762300,
-   "kind": "drop",
-   "pct": 8.7
-  }
- ],
+ "alerts": [],
  "best": {
   "park-hyatt-busan": {
    "name": "파크 하얏트 부산",
