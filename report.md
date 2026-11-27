@@ -1,6 +1,6 @@
 # HoteLux 요금 현황
 
-마지막 조회: 2026. 11. 27. PM 2:59:44 (한국 시간)
+마지막 조회: 2026. 11. 28. AM 1:13:26 (한국 시간)
 
 기준: 1박·성인 2명, 세금 포함 원화. 요금제 prive / virtuoso / exclusive (제외: vita). 알림 조건: 날짜·객실별 역대 최저 대비 8% 이상 하락, 또는 목표가 이하 첫 도달.
 
@@ -8,7 +8,7 @@
 
 | 월 | 최저가 날짜 | 최저가 |
 |---|---|---:|
-| 2026-11 | 11/30(월) | 349,690원 |
+| 2026-11 | 11/30(월) | 411,400원 |
 | 2026-12 | 12/14(월) | 299,200원 |
 | 2027-01 | 1/25(월) | 324,445원 |
 | 2027-02 | 2/22(월) | 327,250원 |
@@ -20,10 +20,9 @@
 
 | 체크인 | 최저 객실 | 객실·요금제 | 두번째 객실 | 역대 최저 |
 |---|---:|---|---:|---:|
-| 11/27(금) | 495,000 | Standard Rate 1 King Bed-floor To Ceilin · Hyatt Prive | 542,300 | 495,000 |
 | 11/28(토) | 605,000 | Standard Rate 1 King Bed-floor To Ceilin · Hyatt Prive | 660,000 | 605,000 |
 | 11/29(일) | 451,000 | Standard Rate 1 King Bed-floor To Ceilin · Hyatt Prive | 504,900 | 422,400 |
-| 11/30(월) | 349,690 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 411,400 | 328,185 |
+| 11/30(월) | 411,400 | Standard Rate 1 King Bed-floor To Ceilin · Hyatt Prive | 495,000 | 386,100 |
 | 12/1(화) | 383,350 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 420,750 | 362,780 |
 | 12/2(수) | 383,350 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 420,750 | 361,845 |
 | 12/3(목) | 383,350 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 420,750 | 374,935 |
@@ -41,14 +40,14 @@
 | 12/15(화) | 299,200 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 336,600 | 299,200 |
 | 12/16(수) | 299,200 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 336,600 | 299,200 |
 | 12/17(목) | 383,350 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 420,750 | 383,350 |
-| 12/18(금) | 547,910 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 614,295 | 503,030 |
+| 12/18(금) | 548,845 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 627,385 | 503,030 |
 | 12/19(토) | 561,000 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 607,750 | 561,000 |
 | 12/20(일) | 484,330 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 569,800 | 415,140 |
 | 12/21(월) | 383,350 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 420,750 | 378,675 |
 | 12/22(화) | 383,350 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 420,750 | 383,350 |
 | 12/23(수) | 383,350 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 420,750 | 383,350 |
 | 12/24(목) | 888,250 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 935,000 | 561,000 |
-| 12/25(금) | 1,045,000 | Standard Rate 1 King Bed-floor To Ceilin · Hyatt Prive | 1,100,000 | 715,000 |
+| 12/25(금) | 935,000 | Hyatt Prive Save 15 Pct 1 King Deluxe-ki · Hyatt Prive Save 15 Pct | 1,045,000 | 654,500 |
 | 12/26(토) | 888,250 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 935,000 | 701,250 |
 | 12/27(일) | 589,050 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 635,800 | 589,050 |
 | 12/28(월) | 467,500 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 504,900 | 467,500 |
@@ -56,7 +55,7 @@
 | 12/30(수) | 467,500 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 504,900 | 467,500 |
 | 12/31(목) | 888,250 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 935,000 | 888,250 |
 | 1/1(금) | 888,250 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 935,000 | 888,250 |
-| 1/2(토) | 792,880 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 830,280 | 763,895 |
+| 1/2(토) | 796,620 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 834,020 | 763,895 |
 | 1/3(일) | 402,050 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 439,450 | 384,285 |
 | 1/4(월) | 353,430 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 390,830 | 325,380 |
 | 1/5(화) | 354,365 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 391,765 | 346,885 |
@@ -94,9 +93,9 @@
 | 2/6(토) | 607,750 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 645,150 | 607,750 |
 | 2/7(일) | 567,545 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 604,945 | 553,520 |
 | 2/8(월) | 520,795 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 558,195 | 519,860 |
-| 2/9(화) | 370,260 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 407,660 | 368,390 |
+| 2/9(화) | 369,325 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 406,725 | 368,390 |
 | 2/10(수) | 354,365 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 391,765 | 351,560 |
-| 2/11(목) | 366,520 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 403,920 | 340,340 |
+| 2/11(목) | 371,195 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 408,595 | 340,340 |
 | 2/12(금) | 404,855 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 442,255 | 404,855 |
 | 2/13(토) | 520,795 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 558,195 | 520,795 |
 | 2/14(일) | 357,170 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 394,570 | 357,170 |
@@ -106,10 +105,10 @@
 | 2/18(목) | 335,665 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 373,065 | 335,665 |
 | 2/19(금) | 404,855 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 442,255 | 404,855 |
 | 2/20(토) | 525,470 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 562,870 | 525,470 |
-| 2/21(일) | 362,780 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 400,180 | 357,170 |
+| 2/21(일) | 361,845 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 399,245 | 357,170 |
 | 2/22(월) | 327,250 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 364,650 | 326,315 |
 | 2/23(화) | 337,535 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 374,935 | 331,925 |
-| 2/24(수) | 333,795 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 371,195 | 330,990 |
+| 2/24(수) | 334,730 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 372,130 | 330,990 |
 | 2/25(목) | 341,275 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 378,675 | 341,275 |
 | 2/26(금) | 511,445 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 548,845 | 494,615 |
 | 2/27(토) | 888,250 | Hyatt Prive Save 15 Pct 1 King Bed-floor · Hyatt Prive Save 15 Pct | 925,650 | 822,800 |
@@ -200,6 +199,7 @@
 | 5/23(일) | 528,000 | Standard Rate 1 King Bed-floor To Ceilin · Hyatt Prive | 635,800 | 528,000 |
 | 5/24(월) | 451,000 | Standard Rate 1 King Bed-floor To Ceilin · Hyatt Prive | 495,000 | 451,000 |
 | 5/25(화) | 451,000 | Standard Rate 1 King Bed-floor To Ceilin · Hyatt Prive | 495,000 | 451,000 |
+| 5/26(수) | 451,000 | Standard Rate 1 King Bed-floor To Ceilin · Hyatt Prive | 495,000 | 451,000 |
 
 </details>
 
@@ -207,62 +207,61 @@
 
 | 월 | 최저가 날짜 | 최저가 |
 |---|---|---:|
-| 2026-11 | 11/30(월) | 490,050원 |
-| 2026-12 | 12/18(금) | 553,212원 |
+| 2026-11 | 11/29(일) | 544,500원 |
+| 2026-12 | 12/18(금) | 541,233원 |
 | 2027-01 | 1/3(일) | 498,762원 |
-| 2027-02 | 2/20(토) | 503,118원 |
-| 2027-03 | 3/30(화) | 439,956원 |
-| 2027-04 | 4/25(일) | 408,375원 |
-| 2027-05 | 5/17(월) | 372,680원 |
+| 2027-02 | 2/20(토) | 506,385원 |
+| 2027-03 | 3/30(화) | 446,490원 |
+| 2027-04 | 4/19(월) | 413,820원 |
+| 2027-05 | 5/17(월) | 371,470원 |
 
 <details><summary>날짜별 전체 보기</summary>
 
 | 체크인 | 최저 객실 | 객실·요금제 | 두번째 객실 | 역대 최저 |
 |---|---:|---|---:|---:|
-| 11/27(금) | 544,500 | 1 King Bed · Hyatt Prive | 544,500 | 435,600 |
-| 11/28(토) | 696,960 | 1 King Bed Mountain View · Hyatt Prive | 968,000 | 696,960 |
+| 11/28(토) | 해당 요금 없음 |  | – | – |
 | 11/29(일) | 544,500 | 1 King Bed · Hyatt Prive | 544,500 | 491,260 |
-| 11/30(월) | 490,050 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 490,050 | 490,050 |
+| 11/30(월) | 544,500 | 1 King Bed · Hyatt Prive | 544,500 | 491,260 |
 | 12/1(화) | 560,835 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 560,835 | 490,050 |
 | 12/2(수) | 560,835 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 560,835 | 490,050 |
 | 12/3(목) | 560,835 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 560,835 | 490,050 |
-| 12/4(금) | 560,835 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 571,725 | 490,050 |
+| 12/4(금) | 871,200 | Hyatt Prive Save 10 Pct 1 King River Vw- · Hyatt Prive Save 10 Pct | 925,650 | 871,200 |
 | 12/5(토) | 1,143,450 | Hyatt Prive Save 10 Pct 1 Kng Clb Access · Hyatt Prive Save 10 Pct | 1,270,500 | 1,143,450 |
 | 12/6(일) | 560,835 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 598,950 | 490,050 |
-| 12/7(월) | 2,041,875 | Hyatt Prive Save 10 Pct Grand Exec Ste K · Hyatt Prive Save 10 Pct | 2,041,875 | 2,032,074 |
-| 12/8(화) | 586,971 | Hyatt Prive Save 10 Pct 2 Twin Mount Vw- · Hyatt Prive Save 10 Pct | 652,190 | 586,971 |
+| 12/7(월) | 686,070 | Hyatt Prive Save 10 Pct 2 Twin Mount Vw- · Hyatt Prive Save 10 Pct | 762,300 | 686,070 |
+| 12/8(화) | 581,526 | Hyatt Prive Save 10 Pct 2 Twin Mount Vw- · Hyatt Prive Save 10 Pct | 646,140 | 581,526 |
 | 12/9(수) | 598,950 | Hyatt Prive Save 10 Pct 2 Twin Beds-2 Sg · Hyatt Prive Save 10 Pct | 665,500 | 490,050 |
-| 12/10(목) | 598,950 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 617,463 | 490,050 |
-| 12/11(금) | 598,950 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 652,311 | 490,050 |
-| 12/12(토) | 1,017,126 | Hyatt Prive Save 10 Pct 1 King Corner-1  · Hyatt Prive Save 10 Pct | 1,130,140 | 1,017,126 |
+| 12/10(목) | 598,950 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 609,840 | 490,050 |
+| 12/11(금) | 598,950 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 646,866 | 490,050 |
+| 12/12(토) | 990,990 | Hyatt Prive Save 10 Pct 1 King Corner-1  · Hyatt Prive Save 10 Pct | 1,101,100 | 990,990 |
 | 12/13(일) | 598,950 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 598,950 | 490,050 |
 | 12/14(월) | 598,950 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 598,950 | 490,050 |
 | 12/15(화) | 598,950 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 598,950 | 490,050 |
 | 12/16(수) | 598,950 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 598,950 | 490,050 |
 | 12/17(목) | 598,950 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 598,950 | 490,050 |
-| 12/18(금) | 553,212 | Hyatt Prive Save 10 Pct 1 King Mount Vw- · Hyatt Prive Save 10 Pct | 614,680 | 553,212 |
-| 12/19(토) | 811,305 | Hyatt Prive Save 10 Pct 1 King Mount Vw- · Hyatt Prive Save 10 Pct | 871,200 | 785,169 |
+| 12/18(금) | 541,233 | Hyatt Prive Save 10 Pct 1 King Mount Vw- · Hyatt Prive Save 10 Pct | 601,370 | 541,233 |
+| 12/19(토) | 824,373 | Hyatt Prive Save 10 Pct 1 King Mount Vw- · Hyatt Prive Save 10 Pct | 871,200 | 785,169 |
 | 12/20(일) | 598,950 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 598,950 | 490,050 |
 | 12/21(월) | 598,950 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 598,950 | 490,050 |
 | 12/22(화) | 598,950 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 598,950 | 490,050 |
-| 12/23(수) | 613,107 | Hyatt Prive Save 10 Pct 1 King Mount Vw- · Hyatt Prive Save 10 Pct | 613,107 | 581,526 |
-| 12/24(목) | 1,384,119 | Hyatt Prive Save 10 Pct 1 King Mount Vw- · Hyatt Prive Save 10 Pct | 1,384,119 | 1,078,110 |
-| 12/25(금) | 1,164,141 | Hyatt Prive Save 10 Pct 1 King Mount Vw- · Hyatt Prive Save 10 Pct | 1,164,141 | 1,078,110 |
-| 12/26(토) | 656,667 | Hyatt Prive Save 10 Pct 1 King Mount Vw- · Hyatt Prive Save 10 Pct | 729,630 | 589,149 |
-| 12/27(일) | 594,594 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 594,594 | 594,594 |
-| 12/28(월) | 620,730 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 620,730 | 604,395 |
-| 12/29(화) | 606,573 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 606,573 | 606,573 |
-| 12/30(수) | 570,636 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 570,636 | 561,924 |
-| 12/31(목) | 1,426,590 | Hyatt Prive Save 10 Pct 1 King Mount Vw- · Hyatt Prive Save 10 Pct | 1,426,590 | 1,340,559 |
-| 1/1(금) | 1,281,753 | Hyatt Prive Save 10 Pct 1 King Mount Vw- · Hyatt Prive Save 10 Pct | 1,281,753 | 1,281,753 |
-| 1/2(토) | 657,756 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 657,756 | 656,667 |
+| 12/23(수) | 616,374 | Hyatt Prive Save 10 Pct 1 King Mount Vw- · Hyatt Prive Save 10 Pct | 616,374 | 581,526 |
+| 12/24(목) | 1,383,030 | Hyatt Prive Save 10 Pct 1 King Mount Vw- · Hyatt Prive Save 10 Pct | 1,383,030 | 1,078,110 |
+| 12/25(금) | 1,059,597 | Hyatt Prive Save 10 Pct 1 King Mount Vw- · Hyatt Prive Save 10 Pct | 1,059,597 | 1,059,597 |
+| 12/26(토) | 683,892 | Hyatt Prive Save 10 Pct 1 King Mount Vw- · Hyatt Prive Save 10 Pct | 683,892 | 589,149 |
+| 12/27(일) | 600,039 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 600,039 | 594,594 |
+| 12/28(월) | 621,819 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 621,819 | 604,395 |
+| 12/29(화) | 618,552 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 618,552 | 606,573 |
+| 12/30(수) | 583,704 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 583,704 | 561,924 |
+| 12/31(목) | 1,418,967 | Hyatt Prive Save 10 Pct 1 King Mount Vw- · Hyatt Prive Save 10 Pct | 1,418,967 | 1,340,559 |
+| 1/1(금) | 1,228,392 | Hyatt Prive Save 10 Pct 1 King Mount Vw- · Hyatt Prive Save 10 Pct | 1,228,392 | 1,228,392 |
+| 1/2(토) | 655,578 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 655,578 | 655,578 |
 | 1/3(일) | 498,762 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 498,762 | 498,762 |
 | 1/4(월) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 1/5(화) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 1/6(수) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 1/7(목) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 1/8(금) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 424,710 |
-| 1/9(토) | 563,013 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 563,013 | 491,139 |
+| 1/9(토) | 528,165 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 528,165 | 491,139 |
 | 1/10(일) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 1/11(월) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 1/12(화) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
@@ -276,14 +275,14 @@
 | 1/20(수) | 605,000 | 1 King Bed · Hyatt Prive | 605,000 | 338,800 |
 | 1/21(목) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 1/22(금) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
-| 1/23(토) | 527,076 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 585,640 | 527,076 |
+| 1/23(토) | 528,165 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 586,850 | 527,076 |
 | 1/24(일) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 1/25(월) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 1/26(화) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 1/27(수) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 1/28(목) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 1/29(금) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 424,710 |
-| 1/30(토) | 530,343 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 530,343 | 530,343 |
+| 1/30(토) | 529,254 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 529,254 | 529,254 |
 | 1/31(일) | 588,060 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 588,060 | 413,820 |
 | 2/1(월) | 588,060 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 588,060 | 413,820 |
 | 2/2(화) | 588,060 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 588,060 | 413,820 |
@@ -297,108 +296,109 @@
 | 2/10(수) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 2/11(목) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 2/12(금) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 479,160 |
-| 2/13(토) | 622,908 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 622,908 | 622,908 |
-| 2/14(일) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 605,000 | 445,401 |
+| 2/13(토) | 637,065 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 637,065 | 622,908 |
+| 2/14(일) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 602,217 | 445,401 |
 | 2/15(월) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 2/16(화) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 2/17(수) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 2/18(목) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 413,820 |
 | 2/19(금) | 544,500 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 544,500 | 448,668 |
-| 2/20(토) | 503,118 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 503,118 | 494,406 |
-| 2/21(일) | 725,274 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 725,274 | 532,521 |
-| 2/22(월) | 629,442 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 629,442 | 449,757 |
-| 2/23(화) | 620,730 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 620,730 | 459,558 |
-| 2/24(수) | 661,023 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 661,023 | 439,956 |
-| 2/25(목) | 656,667 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 656,667 | 481,338 |
-| 2/26(금) | 749,232 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 749,232 | 527,076 |
-| 2/27(토) | 802,230 | 1 King Bed · Hyatt Prive | 802,230 | 475,530 |
-| 2/28(일) | 900,603 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 900,603 | 596,772 |
-| 3/1(월) | 475,893 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 475,893 | 413,820 |
-| 3/2(화) | 570,636 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 570,636 | 413,820 |
-| 3/3(수) | 532,521 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 532,521 | 413,820 |
-| 3/4(목) | 559,746 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 559,746 | 420,354 |
-| 3/5(금) | 715,473 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 715,473 | 541,233 |
-| 3/6(토) | 681,714 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 681,714 | 612,018 |
-| 3/7(일) | 639,243 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 639,243 | 457,380 |
-| 3/8(월) | 561,924 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 561,924 | 413,820 |
-| 3/9(화) | 547,767 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 547,767 | 413,820 |
-| 3/10(수) | 569,547 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 569,547 | 418,176 |
-| 3/11(목) | 641,421 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 641,421 | 445,401 |
-| 3/12(금) | 814,572 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 814,572 | 638,154 |
-| 3/13(토) | 527,076 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 527,076 | 518,364 |
+| 2/20(토) | 506,385 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 506,385 | 494,406 |
+| 2/21(일) | 711,117 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 711,117 | 532,521 |
+| 2/22(월) | 637,065 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 637,065 | 449,757 |
+| 2/23(화) | 621,819 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 621,819 | 459,558 |
+| 2/24(수) | 659,934 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 659,934 | 439,956 |
+| 2/25(목) | 659,934 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 659,934 | 481,338 |
+| 2/26(금) | 714,384 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 714,384 | 527,076 |
+| 2/27(토) | 776,820 | 1 King Bed · Hyatt Prive | 776,820 | 475,530 |
+| 2/28(일) | 857,043 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 857,043 | 596,772 |
+| 3/1(월) | 491,139 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 491,139 | 413,820 |
+| 3/2(화) | 540,144 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 540,144 | 413,820 |
+| 3/3(수) | 536,877 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 536,877 | 413,820 |
+| 3/4(목) | 552,123 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 552,123 | 420,354 |
+| 3/5(금) | 708,939 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 708,939 | 541,233 |
+| 3/6(토) | 686,070 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 686,070 | 612,018 |
+| 3/7(일) | 633,798 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 633,798 | 457,380 |
+| 3/8(월) | 592,416 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 592,416 | 413,820 |
+| 3/9(화) | 조회 실패 | | | |
+| 3/10(수) | 573,903 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 573,903 | 418,176 |
+| 3/11(목) | 633,798 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 633,798 | 445,401 |
+| 3/12(금) | 806,949 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 806,949 | 638,154 |
+| 3/13(토) | 520,542 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 520,542 | 518,364 |
 | 3/14(일) | 580,800 | 1 King Bed · Hyatt Prive | 580,800 | 314,600 |
 | 3/15(월) | 580,800 | 1 King Bed · Hyatt Prive | 580,800 | 338,800 |
 | 3/16(화) | 522,720 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 522,720 | 522,720 |
 | 3/17(수) | 511,830 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 511,830 | 511,830 |
 | 3/18(목) | 511,830 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 511,830 | 511,830 |
 | 3/19(금) | 580,800 | 1 King Bed · Hyatt Prive | 580,800 | 439,230 |
-| 3/20(토) | 836,110 | 1 King Bed · Hyatt Prive | 836,110 | 486,420 |
-| 3/21(일) | 566,280 | 1 King Bed · Hyatt Prive | 566,280 | 410,190 |
+| 3/20(토) | 842,160 | 1 King Bed · Hyatt Prive | 842,160 | 486,420 |
+| 3/21(일) | 572,330 | 1 King Bed · Hyatt Prive | 572,330 | 410,190 |
 | 3/22(월) | 544,500 | 1 King Bed · Hyatt Prive | 544,500 | 364,210 |
-| 3/23(화) | 494,890 | 1 King Bed · Hyatt Prive | 494,890 | 385,990 |
+| 3/23(화) | 487,630 | 1 King Bed · Hyatt Prive | 487,630 | 385,990 |
 | 3/24(수) | 556,600 | 1 King Bed · Hyatt Prive | 556,600 | 338,800 |
-| 3/25(목) | 511,830 | 1 King Bed · Hyatt Prive | 511,830 | 406,560 |
-| 3/26(금) | 710,270 | 1 King Bed · Hyatt Prive | 710,270 | 549,340 |
-| 3/27(토) | 994,620 | 1 King Bed · Hyatt Prive | 994,620 | 494,890 |
-| 3/28(일) | 575,960 | 1 King Bed · Hyatt Prive | 575,960 | 413,820 |
-| 3/29(월) | 460,647 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 460,647 | 460,647 |
-| 3/30(화) | 439,956 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 439,956 | 439,956 |
-| 3/31(수) | 460,647 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 460,647 | 460,647 |
-| 4/1(목) | 460,647 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 460,647 | 460,647 |
-| 4/2(금) | 586,971 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 586,971 | 586,971 |
-| 4/3(토) | 1,020,393 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 1,020,393 | 815,661 |
-| 4/4(일) | 539,660 | 1 King Bed · Hyatt Prive | 539,660 | 480,370 |
-| 4/5(월) | 457,380 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 457,380 | 457,380 |
-| 4/6(화) | 470,448 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 470,448 | 470,448 |
-| 4/7(수) | 460,647 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 460,647 | 460,647 |
-| 4/8(목) | 469,359 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 469,359 | 469,359 |
-| 4/9(금) | 665,500 | 1 King Bed · Hyatt Prive | 665,500 | 491,260 |
-| 4/10(토) | 760,122 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 760,122 | 753,588 |
-| 4/11(일) | 472,626 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 472,626 | 472,626 |
-| 4/12(월) | 460,647 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 460,647 | 438,867 |
-| 4/13(화) | 426,888 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 426,888 | 426,888 |
-| 4/14(수) | 509,410 | 1 King Bed · Hyatt Prive | 509,410 | 445,280 |
-| 4/15(목) | 510,741 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 510,741 | 505,296 |
-| 4/16(금) | 705,430 | 1 King Bed · Hyatt Prive | 705,430 | 533,610 |
-| 4/17(토) | 696,960 | 1 King Bed · Hyatt Prive | 696,960 | 693,330 |
-| 4/18(일) | 457,380 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 457,380 | 457,380 |
+| 3/25(목) | 514,250 | 1 King Bed · Hyatt Prive | 514,250 | 406,560 |
+| 3/26(금) | 706,640 | 1 King Bed · Hyatt Prive | 706,640 | 549,340 |
+| 3/27(토) | 990,990 | 1 King Bed · Hyatt Prive | 990,990 | 494,890 |
+| 3/28(일) | 608,630 | 1 King Bed · Hyatt Prive | 608,630 | 413,820 |
+| 3/29(월) | 457,380 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 457,380 | 457,380 |
+| 3/30(화) | 446,490 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 446,490 | 439,956 |
+| 3/31(수) | 468,270 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 468,270 | 460,647 |
+| 4/1(목) | 470,448 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 470,448 | 460,647 |
+| 4/2(금) | 596,772 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 596,772 | 586,971 |
+| 4/3(토) | 1,021,482 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 1,021,482 | 815,661 |
+| 4/4(일) | 545,710 | 1 King Bed · Hyatt Prive | 545,710 | 480,370 |
+| 4/5(월) | 473,715 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 473,715 | 457,380 |
+| 4/6(화) | 486,783 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 486,783 | 470,448 |
+| 4/7(수) | 479,160 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 479,160 | 460,647 |
+| 4/8(목) | 511,830 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 511,830 | 469,359 |
+| 4/9(금) | 671,550 | 1 King Bed · Hyatt Prive | 671,550 | 491,260 |
+| 4/10(토) | 750,321 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 750,321 | 750,321 |
+| 4/11(일) | 470,448 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 470,448 | 470,448 |
+| 4/12(월) | 461,736 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 461,736 | 438,867 |
+| 4/13(화) | 445,401 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 445,401 | 426,888 |
+| 4/14(수) | 517,880 | 1 King Bed · Hyatt Prive | 517,880 | 445,280 |
+| 4/15(목) | 520,542 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 520,542 | 505,296 |
+| 4/16(금) | 699,380 | 1 King Bed · Hyatt Prive | 699,380 | 533,610 |
+| 4/17(토) | 711,480 | 1 King Bed · Hyatt Prive | 711,480 | 693,330 |
+| 4/18(일) | 468,270 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 468,270 | 457,380 |
 | 4/19(월) | 413,820 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 413,820 | 413,820 |
 | 4/20(화) | 522,720 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 522,720 | 522,720 |
 | 4/21(수) | 585,882 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 650,980 | 585,882 |
 | 4/22(목) | 577,170 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 577,170 | 577,170 |
-| 4/23(금) | 568,458 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 568,458 | 568,458 |
-| 4/24(토) | 786,016 | Hy Prive Save 30 1 King Bed-1 King Bed-3 · Hy Prive Save 30 | 786,016 | 520,058 |
-| 4/25(일) | 408,375 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 408,375 | 408,375 |
+| 4/23(금) | 593,505 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 593,505 | 568,458 |
+| 4/24(토) | 786,863 | Hy Prive Save 30 1 King Bed-1 King Bed-3 · Hy Prive Save 30 | 786,863 | 520,058 |
+| 4/25(일) | 426,888 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 426,888 | 408,375 |
 | 4/26(월) | 413,820 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 413,820 | 413,820 |
-| 4/27(화) | 421,443 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 421,443 | 421,443 |
-| 4/28(수) | 435,600 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 435,600 | 435,600 |
-| 4/29(목) | 448,668 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 448,668 | 448,668 |
-| 4/30(금) | 510,741 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 510,741 | 498,762 |
-| 5/1(토) | 698,170 | 1 King Bed · Hyatt Prive Adpr | 698,170 | 698,170 |
-| 5/2(일) | 573,540 | 1 King Bed · Hyatt Prive Adpr | 573,540 | 552,970 |
-| 5/3(월) | 491,260 | 1 King Bed · Hyatt Prive Adpr | 491,260 | 424,710 |
-| 5/4(화) | 457,380 | 1 King Bed · Hyatt Prive Adpr | 457,380 | 379,940 |
-| 5/5(수) | 494,890 | 1 King Bed · Hyatt Prive Adpr | 494,890 | 481,580 |
-| 5/6(목) | 479,160 | 1 King Bed · Hyatt Prive Adpr | 479,160 | 471,900 |
-| 5/7(금) | 621,940 | 1 King Bed · Hyatt Prive Adpr | 621,940 | 597,740 |
-| 5/8(토) | 791,340 | 1 King Bed · Hyatt Prive Adpr | 791,340 | 782,870 |
-| 5/9(일) | 529,980 | 1 King Bed · Hyatt Prive Adpr | 529,980 | 445,280 |
-| 5/10(월) | 422,290 | 1 King Bed · Hyatt Prive Adpr | 422,290 | 383,570 |
-| 5/11(화) | 477,950 | 1 King Bed · Hyatt Prive Adpr | 477,950 | 401,720 |
-| 5/12(수) | 611,050 | 1 King Bed · Hyatt Prive Adpr | 611,050 | 484,000 |
-| 5/13(목) | 444,070 | 1 King Bed · Hyatt Prive Adpr | 444,070 | 444,070 |
-| 5/14(금) | 544,500 | 1 King Bed · Hyatt Prive Adpr | 544,500 | 494,890 |
-| 5/15(토) | 682,440 | 1 King Bed · Hyatt Prive Adpr | 682,440 | 680,020 |
-| 5/16(일) | 487,630 | 1 King Bed · Hyatt Prive Adpr | 487,630 | 479,160 |
-| 5/17(월) | 372,680 | 1 King Bed · Hyatt Prive Adpr | 372,680 | 372,680 |
-| 5/18(화) | 677,600 | 1 King Bed · Hyatt Prive Adpr | 677,600 | 677,600 |
-| 5/19(수) | 787,710 | 1 King Bed · Hyatt Prive Adpr | 787,710 | 752,620 |
-| 5/20(목) | 851,840 | 1 King Bed · Hyatt Prive Adpr | 851,840 | 843,370 |
-| 5/21(금) | 669,130 | 1 King Bed · Hyatt Prive Adpr | 669,130 | 661,870 |
-| 5/22(토) | 671,550 | 1 King Bed · Hyatt Prive Adpr | 671,550 | 664,290 |
-| 5/23(일) | 475,530 | 1 King Bed · Hyatt Prive Adpr | 475,530 | 465,850 |
-| 5/24(월) | 405,350 | 1 King Bed · Hyatt Prive Adpr | 405,350 | 405,350 |
-| 5/25(화) | 556,600 | 1 King Bed · Hyatt Prive | 556,600 | 556,600 |
+| 4/27(화) | 427,977 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 427,977 | 421,443 |
+| 4/28(수) | 441,045 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 441,045 | 435,600 |
+| 4/29(목) | 456,291 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 456,291 | 448,668 |
+| 4/30(금) | 523,809 | Hyatt Prive Save 10 Pct 1 King Bed-1 Kin · Hyatt Prive Save 10 Pct | 523,809 | 498,762 |
+| 5/1(토) | 695,750 | 1 King Bed · Hyatt Prive Adpr | 695,750 | 695,750 |
+| 5/2(일) | 582,010 | 1 King Bed · Hyatt Prive Adpr | 582,010 | 552,970 |
+| 5/3(월) | 505,780 | 1 King Bed · Hyatt Prive Adpr | 505,780 | 424,710 |
+| 5/4(화) | 463,430 | 1 King Bed · Hyatt Prive Adpr | 463,430 | 379,940 |
+| 5/5(수) | 504,570 | 1 King Bed · Hyatt Prive Adpr | 504,570 | 481,580 |
+| 5/6(목) | 477,950 | 1 King Bed · Hyatt Prive Adpr | 477,950 | 471,900 |
+| 5/7(금) | 624,360 | 1 King Bed · Hyatt Prive Adpr | 624,360 | 597,740 |
+| 5/8(토) | 799,810 | 1 King Bed · Hyatt Prive Adpr | 799,810 | 782,870 |
+| 5/9(일) | 532,400 | 1 King Bed · Hyatt Prive Adpr | 532,400 | 445,280 |
+| 5/10(월) | 441,650 | 1 King Bed · Hyatt Prive Adpr | 441,650 | 383,570 |
+| 5/11(화) | 479,160 | 1 King Bed · Hyatt Prive Adpr | 479,160 | 401,720 |
+| 5/12(수) | 620,730 | 1 King Bed · Hyatt Prive Adpr | 620,730 | 484,000 |
+| 5/13(목) | 457,380 | 1 King Bed · Hyatt Prive Adpr | 457,380 | 444,070 |
+| 5/14(금) | 550,550 | 1 King Bed · Hyatt Prive Adpr | 550,550 | 494,890 |
+| 5/15(토) | 699,380 | 1 King Bed · Hyatt Prive Adpr | 699,380 | 680,020 |
+| 5/16(일) | 494,890 | 1 King Bed · Hyatt Prive Adpr | 494,890 | 479,160 |
+| 5/17(월) | 371,470 | 1 King Bed · Hyatt Prive Adpr | 371,470 | 371,470 |
+| 5/18(화) | 682,440 | 1 King Bed · Hyatt Prive Adpr | 682,440 | 677,600 |
+| 5/19(수) | 803,440 | 1 King Bed · Hyatt Prive Adpr | 803,440 | 752,620 |
+| 5/20(목) | 850,630 | 1 King Bed · Hyatt Prive Adpr | 850,630 | 843,370 |
+| 5/21(금) | 690,910 | 1 King Bed · Hyatt Prive Adpr | 690,910 | 661,870 |
+| 5/22(토) | 676,390 | 1 King Bed · Hyatt Prive Adpr | 676,390 | 664,290 |
+| 5/23(일) | 463,430 | 1 King Bed · Hyatt Prive Adpr | 463,430 | 463,430 |
+| 5/24(월) | 401,720 | 1 King Bed · Hyatt Prive Adpr | 401,720 | 401,720 |
+| 5/25(화) | 557,810 | 1 King Bed · Hyatt Prive | 557,810 | 556,600 |
+| 5/26(수) | 588,060 | 1 King Bed · Hyatt Prive | 588,060 | 588,060 |
 
 </details>
 
@@ -418,7 +418,6 @@
 
 | 체크인 | 최저 객실 | 객실·요금제 | 두번째 객실 | 역대 최저 |
 |---|---:|---|---:|---:|
-| 11/27(금) | 822,800 | Guest Room 1 King · HoteLux Exclusive Rate | 980,100 | 726,000 |
 | 11/28(토) | 907,500 | Guest Room 1 King · HoteLux Exclusive Rate | 1,064,800 | 907,500 |
 | 11/29(일) | 641,300 | Guest Room 1 King · HoteLux Exclusive Rate | 798,600 | 641,300 |
 | 11/30(월) | 592,900 | Guest Room 1 King · HoteLux Exclusive Rate | 750,200 | 592,900 |
@@ -526,7 +525,7 @@
 | 3/12(금) | 726,000 | Guest Room 1 King · HoteLux Exclusive Rate | 883,300 | 665,500 |
 | 3/13(토) | 726,000 | Guest Room 1 King · HoteLux Exclusive Rate | 883,300 | 726,000 |
 | 3/14(일) | 580,800 | Guest Room 1 King · HoteLux Exclusive Rate | 738,100 | 580,800 |
-| 3/15(월) | 665,500 | Guest Room 1 King · HoteLux Exclusive Rate | 822,800 | 605,000 |
+| 3/15(월) | 조회 실패 | | | |
 | 3/16(화) | 665,500 | Guest Room 1 King · HoteLux Exclusive Rate | 822,800 | 665,500 |
 | 3/17(수) | 665,500 | Guest Room 1 King · HoteLux Exclusive Rate | 822,800 | 665,500 |
 | 3/18(목) | 665,500 | Guest Room 1 King · HoteLux Exclusive Rate | 822,800 | 665,500 |
@@ -539,7 +538,7 @@
 | 3/25(목) | 713,900 | Guest Room 1 King · HoteLux Exclusive Rate | 871,200 | 713,900 |
 | 3/26(금) | 847,000 | Guest Room 1 King · HoteLux Exclusive Rate | 1,004,300 | 847,000 |
 | 3/27(토) | 968,000 | Guest Room 1 King · HoteLux Exclusive Rate | 1,125,300 | 907,500 |
-| 3/28(일) | 해당 요금 없음 |  | – | – |
+| 3/28(일) | 762,300 | Guest Room 1 King · HoteLux Exclusive Rate | 919,600 | 762,300 |
 | 3/29(월) | 762,300 | Guest Room 1 King · HoteLux Exclusive Rate | 919,600 | 762,300 |
 | 3/30(화) | 762,300 | Guest Room 1 King · HoteLux Exclusive Rate | 919,600 | 762,300 |
 | 3/31(수) | 1,004,300 | Executive Lounge Access Guest Room 1 Kin · HoteLux Exclusive Rate | 1,149,500 | 992,200 |
@@ -598,6 +597,7 @@
 | 5/23(일) | 665,500 | Guest Room 1 King · HoteLux Exclusive Rate | 822,800 | 665,500 |
 | 5/24(월) | 822,800 | Guest Room 1 King · HoteLux Exclusive Rate | 980,100 | 822,800 |
 | 5/25(화) | 822,800 | Guest Room 1 King · HoteLux Exclusive Rate | 980,100 | 822,800 |
+| 5/26(수) | 822,800 | Guest Room 1 King · HoteLux Exclusive Rate | 980,100 | 822,800 |
 
 </details>
 
@@ -617,7 +617,6 @@
 
 | 체크인 | 최저 객실 | 객실·요금제 | 두번째 객실 | 역대 최저 |
 |---|---:|---|---:|---:|
-| 11/27(금) | 665,500 | Luminous Exclusive Rate  Authorized Trav · Exclusive Rate | 786,500 | 605,000 |
 | 11/28(토) | 750,200 | Luminous Exclusive Rate  Authorized Trav · Exclusive Rate | 750,200 | 750,200 |
 | 11/29(일) | 580,800 | Luminous Exclusive Rate  Authorized Trav · Exclusive Rate | 580,800 | 556,600 |
 | 11/30(월) | 544,500 | Luminous Exclusive Rate  Authorized Trav · Exclusive Rate | 544,500 | 508,200 |
@@ -797,6 +796,7 @@
 | 5/23(일) | 605,000 | Luminous Exclusive Rate  Authorized Trav · Exclusive Rate | 605,000 | 605,000 |
 | 5/24(월) | 665,500 | Luminous Exclusive Rate  Authorized Trav · Exclusive Rate | 665,500 | 665,500 |
 | 5/25(화) | 665,500 | Luminous Exclusive Rate  Authorized Trav · Exclusive Rate | 665,500 | 665,500 |
+| 5/26(수) | 726,000 | Luminous Exclusive Rate  Authorized Trav · Exclusive Rate | 726,000 | 726,000 |
 
 </details>
 
@@ -816,7 +816,6 @@
 
 | 체크인 | 최저 객실 | 객실·요금제 | 두번째 객실 | 역대 최저 |
 |---|---:|---|---:|---:|
-| 11/27(금) | 1,210,000 | Deluxe Room, 1 King · Virtuoso Region Apac Program | 1,210,000 | 858,000 |
 | 11/28(토) | 1,320,000 | Deluxe Room, 1 King · Virtuoso Region Apac Program | 1,320,000 | 1,078,000 |
 | 11/29(일) | 836,000 | Deluxe Room, 1 King · Virtuoso Region Apac Program | 836,000 | 693,000 |
 | 11/30(월) | 693,000 | Deluxe Room, 1 King · Virtuoso Region Apac Program | 693,000 | 693,000 |
@@ -937,7 +936,7 @@
 | 3/25(목) | 693,000 | Deluxe Room, 1 King · Virtuoso Region Apac Program | 693,000 | 660,000 |
 | 3/26(금) | 880,000 | Deluxe Room, 1 King · Virtuoso Region Apac Program | 880,000 | 770,000 |
 | 3/27(토) | 990,000 | Deluxe Room, 1 King · Virtuoso Region Apac Program | 990,000 | 880,000 |
-| 3/28(일) | 693,000 | Deluxe Room, 1 King · Virtuoso Region Apac Program | 693,000 | 693,000 |
+| 3/28(일) | 조회 실패 | | | |
 | 3/29(월) | 693,000 | Deluxe Room, 1 King · Virtuoso Region Apac Program | 693,000 | 660,000 |
 | 3/30(화) | 693,000 | Deluxe Room, 1 King · Virtuoso Region Apac Program | 693,000 | 660,000 |
 | 3/31(수) | 693,000 | Deluxe Room, 1 King · Virtuoso Region Apac Program | 693,000 | 660,000 |
@@ -996,6 +995,7 @@
 | 5/23(일) | 836,000 | Deluxe Room, 1 King · Virtuoso Region Apac Program | 836,000 | 836,000 |
 | 5/24(월) | 836,000 | Deluxe Room, 1 King · Virtuoso Region Apac Program | 836,000 | 836,000 |
 | 5/25(화) | 858,000 | Deluxe Room, 1 King · Virtuoso Region Apac Program | 858,000 | 858,000 |
+| 5/26(수) | 858,000 | Deluxe Room, 1 King · Virtuoso Region Apac Program | 858,000 | 858,000 |
 
 </details>
 
@@ -1015,7 +1015,6 @@
 
 | 체크인 | 최저 객실 | 객실·요금제 | 두번째 객실 | 역대 최저 |
 |---|---:|---|---:|---:|
-| 11/27(금) | 해당 요금 없음 |  | – | – |
 | 11/28(토) | 해당 요금 없음 |  | – | – |
 | 11/29(일) | 471,900 | Premier Twin, Mipo Harbor View · HoteLux Exclusive Rate | 544,500 | 459,800 |
 | 11/30(월) | 338,800 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 387,200 | 338,800 |
@@ -1031,7 +1030,7 @@
 | 12/10(목) | 496,100 | Premier Twin, Mipo Harbor View · HoteLux Exclusive Rate | 556,600 | 447,700 |
 | 12/11(금) | 484,000 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 544,500 | 484,000 |
 | 12/12(토) | 871,200 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 980,100 | 653,400 |
-| 12/13(일) | 435,600 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 496,100 | 411,400 |
+| 12/13(일) | 496,100 | Premier Twin, Mipo Harbor View · HoteLux Exclusive Rate | 556,600 | 471,900 |
 | 12/14(월) | 387,200 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 435,600 | 375,100 |
 | 12/15(화) | 375,100 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 435,600 | 375,100 |
 | 12/16(수) | 399,300 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 459,800 | 375,100 |
@@ -1057,7 +1056,7 @@
 | 1/5(화) | 375,100 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 423,500 | 375,100 |
 | 1/6(수) | 375,100 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 423,500 | 375,100 |
 | 1/7(목) | 375,100 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 423,500 | 375,100 |
-| 1/8(금) | 423,500 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 496,100 | 399,300 |
+| 1/8(금) | 423,500 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 556,600 | 399,300 |
 | 1/9(토) | 605,000 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 665,500 | 605,000 |
 | 1/10(일) | 387,200 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 447,700 | 387,200 |
 | 1/11(월) | 375,100 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 423,500 | 375,100 |
@@ -1079,7 +1078,7 @@
 | 1/27(수) | 350,900 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 399,300 | 350,900 |
 | 1/28(목) | 350,900 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 399,300 | 350,900 |
 | 1/29(금) | 399,300 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 459,800 | 399,300 |
-| 1/30(토) | 해당 요금 없음 |  | – | – |
+| 1/30(토) | 605,000 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 665,500 | 605,000 |
 | 1/31(일) | 363,000 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 411,400 | 363,000 |
 | 2/1(월) | 350,900 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 399,300 | 350,900 |
 | 2/2(화) | 350,900 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 399,300 | 350,900 |
@@ -1195,5 +1194,6 @@
 | 5/23(일) | 544,500 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 605,000 | 544,500 |
 | 5/24(월) | 399,300 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 459,800 | 399,300 |
 | 5/25(화) | 399,300 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 459,800 | 399,300 |
+| 5/26(수) | 399,300 | Grand Deluxe Double Mipo Harbor View · HoteLux Exclusive Rate | 496,100 | 399,300 |
 
 </details>
